@@ -26,10 +26,10 @@
 		"name": "SOLV Vesting Voucher",
 		"address": "0x3788Cab48c6090dfc312c92A9FF67eEE034Cdf84",
 		"symbol": "icSOLV",
-		"tags": ["vnft"],
+		"tags": ["voucher"],
 		"decimals": 0,
 		"chainId": 4,
-		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
         "extensions": {
             "voucher": {
                 "type": "Vesting",
@@ -40,7 +40,7 @@
                     "decimals": 18,
                     "symbol": "SOLV",
                     "chainId": "4",
-                    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+                    "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
                 }
             }
         }
@@ -51,7 +51,7 @@
 		"tags": ["vnft"],
 		"decimals": 0,
 		"chainId": 4,
-		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png",
         "extensions": {
             "voucher": {
                 "type": "Vesting",
@@ -62,7 +62,7 @@
                     "decimals": 18,
                     "symbol": "DODO",
                     "chainId": "4",
-                    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+                    "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png"
                 }
             }
         }
@@ -74,7 +74,7 @@
 		"tags": ["vnft"],
 		"decimals": 0,
 		"chainId": 4,
-		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
         "extensions": {
             "voucher": {
                 "type": "Offering",
@@ -85,7 +85,7 @@
                     "decimals": 18,
                     "symbol": "SOLV",
                     "chainId": "4",
-                    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+                    "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
                 }
             }
         }
