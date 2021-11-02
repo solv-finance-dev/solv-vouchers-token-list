@@ -1,0 +1,93 @@
+{
+	"name": "SOLV Vouchers Token List DEV",
+	"timestamp": "2021-11-02T22:27:12.720046318Z",
+	"version": {
+		"major": 0,
+		"minor": 0,
+		"patch": 1
+	},
+	"tags": {
+		"common": {
+			"name": "Common Tokens",
+			"description": "Common erc20 tokens"
+		},
+		"nft": {
+			"name": "NFT Tokens",
+			"description": "ERC721 Non Fungible Token Standard"
+		},
+		"voucher": {
+			"name": "SOLV Voucher Tokens",
+			"description": "Based on ERC3525"
+		}
+	},
+	"logoURI": "",
+	"keywords": ["vouchers","nft","solv"],
+	"tokens": [{
+		"name": "SOLV Vesting Voucher",
+		"address": "0x3788Cab48c6090dfc312c92A9FF67eEE034Cdf84",
+		"symbol": "icSOLV",
+		"tags": ["vnft"],
+		"decimals": 0,
+		"chainId": 4,
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x4e4eB10c3576669572a742C370BA6bD5Cecd1Dd9",
+                "underlyingToken": {
+                    "name": "SOLV",
+                    "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
+                    "decimals": 18,
+                    "symbol": "SOLV",
+                    "chainId": "4",
+                    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+                }
+            }
+        }
+    },{
+		"name": "DODO Vesting Voucher",
+		"address": "0x3C93e670371c41de8a5951b7ddddA50543FC1C8a",
+		"symbol": "icDODO",
+		"tags": ["vnft"],
+		"decimals": 0,
+		"chainId": 4,
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0xCA85948a9ae9d501b777240e0c7260fc5B7f018B",
+                "underlyingToken": {
+                    "name": "DoDo Bird",
+                    "address": "0xa960E11e6B83056E7866169CE87f5050EC31c5FE",
+                    "decimals": 18,
+                    "symbol": "DODO",
+                    "chainId": "4",
+                    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+                }
+            }
+        }
+    },
+    {
+		"name": "SOLV Offering Voucher",
+		"address": "0x7387ef3bCe43F3c97b449f685cE176915bEC90ce",
+		"symbol": "ovSOLV",
+		"tags": ["vnft"],
+		"decimals": 0,
+		"chainId": 4,
+		"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+        "extensions": {
+            "voucher": {
+                "type": "Offering",
+                "vestingPool": "0x12f39da6B156EED65F20C6eb5330D9412cC8283c",
+                "underlyingToken": {
+                    "name": "SOLV",
+                    "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
+                    "decimals": 18,
+                    "symbol": "SOLV",
+                    "chainId": "4",
+                    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+                }
+            }
+        }
+    }]
+}
