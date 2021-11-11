@@ -68,17 +68,17 @@
         }
     },
     {
-		"name": "SOLV Offering Voucher",
-		"address": "0x7387ef3bCe43F3c97b449f685cE176915bEC90ce",
-		"symbol": "ovSOLV",
+		"name": "SOLV Flexible Voucher",
+		"address": "0x188022bF75C484697B7dd48F4c23E79Edb5D071c",
+		"symbol": "fvSOLV",
 		"tags": ["vnft"],
 		"decimals": 0,
 		"chainId": 4,
 		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
         "extensions": {
             "voucher": {
-                "type": "Offering",
-                "vestingPool": "0x12f39da6B156EED65F20C6eb5330D9412cC8283c",
+                "type": "Fleible",
+                "vestingPool": "0x67Cb60618F5BE714055360C134eb80C6d04d1E74",
                 "underlyingToken": {
                     "name": "SOLV",
                     "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
