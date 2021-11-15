@@ -77,7 +77,7 @@
 		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
         "extensions": {
             "voucher": {
-                "type": "Fleible",
+                "type": "Flexible",
                 "vestingPool": "0x67Cb60618F5BE714055360C134eb80C6d04d1E74",
                 "underlyingToken": {
                     "name": "SOLV",
