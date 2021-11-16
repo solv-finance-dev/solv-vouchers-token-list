@@ -69,7 +69,7 @@
     },
     {
 		"name": "SOLV Flexible Voucher",
-		"address": "0x188022bF75C484697B7dd48F4c23E79Edb5D071c",
+		"address": "0xb77Ca8CB421fAE5d4790a6f5EdAD97Cfb7868aD0",
 		"symbol": "fvSOLV",
 		"tags": ["vnft"],
 		"decimals": 0,
@@ -78,7 +78,7 @@
         "extensions": {
             "voucher": {
                 "type": "Flexible",
-                "vestingPool": "0x67Cb60618F5BE714055360C134eb80C6d04d1E74",
+                "vestingPool": "0x78465366fdA370043Fb74A55F92EED7dDa76dB31",
                 "underlyingToken": {
                     "name": "SOLV",
                     "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
