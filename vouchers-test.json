@@ -383,9 +383,9 @@
                     "underlyingToken": {
                         "name": "SOLV",
                         "address": "0x20a4862641e1298674b2c1A98F8aCD1eE6c67e5C",
-                        "decimals": 97,
+                        "decimals": 18,
                         "symbol": "SOLV",
-                        "chainId": 4,
+                        "chainId": 97,
                         "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
                     }
                 }
