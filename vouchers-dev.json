@@ -39,7 +39,7 @@
                     "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
                     "decimals": 18,
                     "symbol": "SOLV",
-                    "chainId": "4",
+                    "chainId": 4,
                     "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
                 }
             }
@@ -61,7 +61,7 @@
                     "address": "0xa960E11e6B83056E7866169CE87f5050EC31c5FE",
                     "decimals": 18,
                     "symbol": "DODO",
-                    "chainId": "4",
+                    "chainId": 4,
                     "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png"
                 }
             }
@@ -84,7 +84,7 @@
                     "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
                     "decimals": 18,
                     "symbol": "SOLV",
-                    "chainId": "4",
+                    "chainId": 4,
                     "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
                 }
             }
