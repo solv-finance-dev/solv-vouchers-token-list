@@ -268,7 +268,7 @@
                     "underlyingToken": {
                         "name": "DoDo Bird",
                         "address": "0xfF3Fe34DB3f28B022F815E2737391326a849Bf2b",
-                        "decimals": 4,
+                        "decimals": 18,
                         "symbol": "DODO",
                         "chainId": 4,
                         "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png"
