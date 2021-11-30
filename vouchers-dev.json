@@ -37,7 +37,7 @@
 		"tags": ["voucher"],
 		"decimals": 0,
 		"chainId": 4,
-		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
+		"logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
         "extensions": {
             "voucher": {
                 "type": "Vesting",
@@ -48,7 +48,7 @@
                     "decimals": 18,
                     "symbol": "SOLV",
                     "chainId": 4,
-                    "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
+                    "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                 }
             }
         }
@@ -59,7 +59,7 @@
 		"tags": ["vesting"],
 		"decimals": 0,
 		"chainId": 4,
-		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png",
+		"logoURI": "https://token-list.solv.finance/token-logo/DODO.png",
         "extensions": {
             "voucher": {
                 "type": "Vesting",
@@ -70,7 +70,7 @@
                     "decimals": 18,
                     "symbol": "DODO",
                     "chainId": 4,
-                    "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png"
+                    "logoURI": "https://token-list.solv.finance/token-logo/DODO.png"
                 }
             }
         }
@@ -82,7 +82,7 @@
 		"tags": ["flexible"],
 		"decimals": 0,
 		"chainId": 4,
-		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
+		"logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
         "extensions": {
             "voucher": {
                 "type": "Flexible",
@@ -93,7 +93,7 @@
                     "decimals": 18,
                     "symbol": "SOLV",
                     "chainId": 4,
-                    "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
+                    "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                 }
             }
         }

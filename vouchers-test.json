@@ -38,7 +38,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 4,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -49,7 +49,7 @@
                         "decimals": 18,
                         "symbol": "SOLV",
                         "chainId": 4,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                     }
                 }
             }
@@ -61,7 +61,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 4,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PRQ.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/PRQ.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -72,7 +72,7 @@
                         "decimals": 18,
                         "symbol": "PRQ",
                         "chainId": 4,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PRQ.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/PRQ.png"
                     }
                 }
             }
@@ -84,7 +84,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 4,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SFI.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/SFI.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -95,7 +95,7 @@
                         "decimals": 18,
                         "symbol": "SFI",
                         "chainId": 4,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SFI.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/SFI.png"
                     }
                 }
             }
@@ -107,7 +107,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 4,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/AUCTION.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/AUCTION.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -118,7 +118,7 @@
                         "decimals": 18,
                         "symbol": "Auction",
                         "chainId": 4,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/AUCTION.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/AUCTION.png"
                     }
                 }
             }
@@ -130,7 +130,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 4,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PROM.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/PROM.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -141,7 +141,7 @@
                         "decimals": 18,
                         "symbol": "PROM",
                         "chainId": 4,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PROM.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/PROM.png"
                     }
                 }
             }
@@ -153,7 +153,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 4,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SLD.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/SLD.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -164,7 +164,7 @@
                         "decimals": 18,
                         "symbol": "SLD",
                         "chainId": 4,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SLD.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/SLD.png"
                     }
                 }
             }
@@ -176,7 +176,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 4,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/VHIGH.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/VHIGH.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -187,7 +187,7 @@
                         "decimals": 18,
                         "symbol": "vHIGH",
                         "chainId": 4,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/VHIGH.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/VHIGH.png"
                     }
                 }
             }
@@ -199,7 +199,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 4,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/YIN.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/YIN.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -210,7 +210,7 @@
                         "decimals": 18,
                         "symbol": "tYIN",
                         "chainId": 4,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/YIN.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/YIN.png"
                     }
                 }
             }
@@ -222,7 +222,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 97,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -233,7 +233,7 @@
                         "decimals": 18,
                         "symbol": "SOLV",
                         "chainId": 97,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                     }
                 }
             }
@@ -245,7 +245,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 80001,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -256,7 +256,7 @@
                         "decimals": 18,
                         "symbol": "SOLV",
                         "chainId": 80001,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                     }
                 }
             }
@@ -268,7 +268,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 4,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/DODO.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -279,7 +279,7 @@
                         "decimals": 18,
                         "symbol": "DODO",
                         "chainId": 4,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/DODO.png"
                     }
                 }
             }
@@ -291,7 +291,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 97,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/DODO.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -302,7 +302,7 @@
                         "decimals": 18,
                         "symbol": "DODO",
                         "chainId": 97,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/DODO.png"
                     }
                 }
             }
@@ -314,7 +314,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 97,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PROM.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/PROM.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -325,7 +325,7 @@
                         "decimals": 18,
                         "symbol": "PROM",
                         "chainId": 97,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PROM.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/PROM.png"
                     }
                 }
             }
@@ -337,7 +337,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 97,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/BINO.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/BINO.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -348,7 +348,7 @@
                         "decimals": 18,
                         "symbol": "BINO",
                         "chainId": 97,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/BINO.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/BINO.png"
                     }
                 }
             }
@@ -360,7 +360,7 @@
             "tags": ["vesting"],
             "decimals": 0,
             "chainId": 97,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/IDIA.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/IDIA.png",
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
@@ -371,7 +371,7 @@
                         "decimals": 18,
                         "symbol": "TIDIA",
                         "chainId": 97,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/IDIA.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/IDIA.png"
                     }
                 }
             }
@@ -383,7 +383,7 @@
             "tags": ["flexible"],
             "decimals": 0,
             "chainId": 97,
-            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
             "extensions": {
                 "voucher": {
                     "type": "Flexible",
@@ -394,7 +394,7 @@
                         "decimals": 18,
                         "symbol": "SOLV",
                         "chainId": 97,
-                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                     }
                 }
             }
