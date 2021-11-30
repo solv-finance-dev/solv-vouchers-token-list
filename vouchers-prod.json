@@ -1,0 +1,566 @@
+{
+	"name": "SOLV Vouchers Token List",
+	"timestamp": "2021-11-26T06:53:12.720046318Z",
+	"version": {
+		"major": 0,
+		"minor": 0,
+		"patch": 1
+	},
+	"tags": {
+		"common": {
+			"name": "Common Tokens",
+			"description": "Common erc20 tokens"
+		},
+		"nft": {
+			"name": "NFT Tokens",
+			"description": "ERC721 Non Fungible Token Standard"
+		},
+		"voucher": {
+			"name": "SOLV Voucher Tokens",
+			"description": "Based on ERC3525"
+		},
+        "vesting": {
+			"name": "One of SOLV Voucher type",
+			"description": "Based on ERC3525"
+        },
+        "flexible": {
+			"name": "One of SOLV Voucher type",
+			"description": "Based on ERC3525"
+        }        
+	},
+	"logoURI": "",
+	"keywords": ["voucher","nft","vesting","flexible"],
+	"tokens": [
+        {
+            "name": "SOLV Vesting Voucher",
+            "address": "0xfdcdE28359Db316957534e825327d99D9f4a5d17",
+            "symbol": "icSOLV",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x7D0C93DcAD6f6B38C81431d7262CF0E48770B81a",
+                    "underlyingToken": {
+                        "name": "SOLV",
+                        "address": "0x256F2d67e52fE834726D2DDCD8413654F5Eb8b53",
+                        "decimals": 18,
+                        "symbol": "SOLV",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png"
+                    }
+                }
+            }
+        }, 
+        {
+            "name": "PRQ Vesting Voucher",
+            "address": "0x705d6b0c912a33A8643b5F7E42B5c7CA386A3b32",
+            "symbol": "icPRQ",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PRQ.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x3A076c72219eCaC060A09Ce1006f4194007a7C0f",
+                    "underlyingToken": {
+                        "name": "Parsiq Token",
+                        "address": "0x362bc847A3a9637d3af6624EeC853618a43ed7D2",
+                        "decimals": 18,
+                        "symbol": "PRQ",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PRQ.png"
+                    }
+                }
+            }
+        },   
+        {
+            "name": "DODO Vesting Voucher",
+            "address": "0xaDB9AB302ECd551264a718d43aE6B3C255a8afa5",
+            "symbol": "icDODO",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x4A6c7ba0Cda9Bdc51Bd088Be20664926225BeEbF",
+                    "underlyingToken": {
+                        "name": "DoDo Bird",
+                        "address": "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd",
+                        "decimals": 18,
+                        "symbol": "DODO",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png"
+                    }
+                }
+            }
+        },          
+        {
+            "name": "SFI Vesting Voucher",
+            "address": "0x884F3b6d68DcC64bad97c84b5e32b80cE0EBBe7d",
+            "symbol": "icSFI",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SFI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x87A6F77eEC56f37c56a625Ab690294274a6116b6",
+                    "underlyingToken": {
+                        "name": "Saffron Finance",
+                        "address": "0xb753428af26e81097e7fd17f40c88aaa3e04902c",
+                        "decimals": 18,
+                        "symbol": "SFI",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SFI.png"
+                    }
+                }
+            }
+        },  
+        {
+            "name": "Auction Vesting Voucher",
+            "address": "0xE995Aa82Ed3E0a3E86097D3d2914aA6AA20777Ab",
+            "symbol": "icAuction",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/AUCTION.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xf30e8dF9C5EC87edfCfC9E15A349dE8061Dfe8dB",
+                    "underlyingToken": {
+                        "name": "Bounce Auction Token",
+                        "address": "0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096",
+                        "decimals": 18,
+                        "symbol": "Auction",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/AUCTION.png"
+                    }
+                }
+            }
+        },  
+        {
+            "name": "PROM Vesting Voucher",
+            "address": "0xb62d5ceb3668Fd7919e3ad860779B6c4AefFbE70",
+            "symbol": "avPROM",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PROM.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x84A4734da8Ea31e81cbe52eB547A3097f641a6d3",
+                    "underlyingToken": {
+                        "name": "Token Prometeus Network",
+                        "address": "0xfc82bb4ba86045Af6F327323a46E80412b91b27d",
+                        "decimals": 18,
+                        "symbol": "PROM",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PROM.png"
+                    }
+                }
+            }
+        }, 
+        {
+            "name": "CLS Vesting Voucher",
+            "address": "0xF97c35C542e0AD32E9B03967b41999A43ACbDBe3",
+            "symbol": "avCLS",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/CLS.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xcaDe747EB2B77e28a43E786E5Cdeb9Ef795406aC",
+                    "underlyingToken": {
+                        "name": "Coldstack (CLS)",
+                        "address": "0x675BBC7514013E2073DB7a919F6e4cbeF576de37",
+                        "decimals": 18,
+                        "symbol": "CLS",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/CLS.png"
+                    }
+                }
+            }
+        },  
+        {
+            "name": "SLD Vesting Voucher",
+            "address": "0x5c446Fb81924A9d6d4CA740145d7669b824af663",
+            "symbol": "avSLD",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SLD.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xfaa473ce91CAf3F0f5216d06caeACDB26fEf4f45",
+                    "underlyingToken": {
+                        "name": "ShieldEX (SLD)",
+                        "address": "0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084",
+                        "decimals": 18,
+                        "symbol": "SLD",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SLD.png"
+                    }
+                }
+            }
+        },         
+        {
+            "name": "BEL Vesting Voucher",
+            "address": "0xF827E010D19d4dDe428D7DA00A2a0DfbeDE57921",
+            "symbol": "avBEL",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/BEL.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xCC38cf25E3BEBf88140939b3E82a0cc72931eC59",
+                    "underlyingToken": {
+                        "name": "Bella",
+                        "address": "0xA91ac63D040dEB1b7A5E4d4134aD23eb0ba07e14",
+                        "decimals": 18,
+                        "symbol": "BEL",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/BEL.png"
+                    }
+                }
+            }
+        }, 
+        {
+            "name": "vHIGH Vesting Voucher",
+            "address": "0xcEfF847de8289a5D0d28D91c3CeB7Fa2e17EB27a",
+            "symbol": "avvHIGH",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/VHIGH.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xe3F260B929e8d2Aca5a63a40dBA33c7C99Ca65C8",
+                    "underlyingToken": {
+                        "name": "HighStreet",
+                        "address": "0x90707ba68FBE8d5d2f917C83502fcBF5b2585C28",
+                        "decimals": 18,
+                        "symbol": "vHIGH",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/VHIGH.png"
+                    }
+                }
+            }
+        }, 
+        {
+            "name": "STRP Vesting Voucher",
+            "address": "0x85685Fe7f129De3346Ac8f103aAb521d1E59CDB4",
+            "symbol": "avSTRP",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/STRP.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xbcd8CC0Bd9B6c9F620C40B5f7C67233c42E87530",
+                    "underlyingToken": {
+                        "name": "Strips Token",
+                        "address": "0x97872EAfd79940C7b24f7BCc1EADb1457347ADc9",
+                        "decimals": 18,
+                        "symbol": "STRP",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/STRP.png"
+                    }
+                }
+            }
+        },
+        {
+            "name": "YIN Vesting Voucher",
+            "address": "0x0d5a6FeFa731CB5842DF77f24a186e7EeD20B801",
+            "symbol": "vvYIN",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/YIN.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x670Bf192f753B28E0ff4EfA943dcbACd8f80D85C",
+                    "underlyingToken": {
+                        "name": "YIN Finance (YIN)",
+                        "address": "0x794Baab6b878467F93EF17e2f2851ce04E3E34C8",
+                        "decimals": 18,
+                        "symbol": "YIN",
+                        "chainId": 1,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/YIN.png"
+                    }
+                }
+            }
+        }, 
+        
+        {
+            "name": "DODO Vesting Voucher",
+            "address": "0xA88999C36fe36f6Df8D28b9cEAd38E1082D2F096",
+            "symbol": "icDODO",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x74eB485882a171f607bd735AA2f7AFC4083997DD",
+                    "underlyingToken": {
+                        "name": "DoDo Bird",
+                        "address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2",
+                        "decimals": 18,
+                        "symbol": "DODO",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png"
+                    }
+                }
+            }
+        },  
+        {
+            "name": "PROM Vesting Voucher",
+            "address": "0x4A6c7ba0Cda9Bdc51Bd088Be20664926225BeEbF",
+            "symbol": "avPROM",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PROM.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xE92e52360401744c3a1581238e35664cFCF1e9aD",
+                    "underlyingToken": {
+                        "name": "Token Prometeus Network",
+                        "address": "0xaF53d56ff99f1322515E54FdDE93FF8b3b7DAFd5",
+                        "decimals": 18,
+                        "symbol": "PROM",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/PROM.png"
+                    }
+                }
+            }
+        },
+        {
+            "name": "BINO Vesting Voucher",
+            "address": "0xe5ffDE144592121195d43fdfb3621fc7530c0040",
+            "symbol": "avBINO",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/BINO.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x4AfB9062f956ceef737e94317eD4Cc1C816222eE",
+                    "underlyingToken": {
+                        "name": "Binopoly",
+                        "address": "0xA2dF7a11baF8bB555E93b99684A2DE0f105eB592",
+                        "decimals": 18,
+                        "symbol": "BINO",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/BINO.png"
+                    }
+                }
+            }
+        },                        
+        {
+            "name": "SLD Vesting Voucher",
+            "address": "0x81C0D9daaC377ACA9C51AC0FDdC2d01Cb004a8FE",
+            "symbol": "avSLD",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SLD.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xD91A208995bfBde9D133c39417FBD352e595650b",
+                    "underlyingToken": {
+                        "name": "ShieldEX (SLD)",
+                        "address": "0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084",
+                        "decimals": 18,
+                        "symbol": "SLD",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SLD.png"
+                    }
+                }
+            }
+        }, 
+        {
+            "name": "IDIA Vesting Voucher",
+            "address": "0x0c491ac26d2cDDa63667DF65b43b967B9293161c",
+            "symbol": "avIDIA",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/IDIA.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x67D48Ce0E776147B0d996e1FaCC0FbAA91b1CBC4",
+                    "underlyingToken": {
+                        "name": "Impossible Decentralized Incubator Access Token",
+                        "address": "0x0b15Ddf19D47E6a86A56148fb4aFFFc6929BcB89",
+                        "decimals": 18,
+                        "symbol": "IDIA",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/IDIA.png"
+                    }
+                }
+            }
+        },          
+        {
+            "name": "IF Vesting Voucher",
+            "address": "0x3ebceb9989630b3f4E4Eb0C7263A07E8c515bE23",
+            "symbol": "avIF",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/IF.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x86bbB4724c1F02b0167a1bE28C2a8a4d033a352C",
+                    "underlyingToken": {
+                        "name": "Impossible Finance (IF)",
+                        "address": "0xB0e1fc65C1a741b4662B813eB787d369b8614Af1",
+                        "decimals": 18,
+                        "symbol": "IF",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/IF.png"
+                    }
+                }
+            }
+        }, 
+        {
+            "name": "VERA Vesting Voucher",
+            "address": "0x928B35660F8388042d871E82EB40234901461354",
+            "symbol": "avVERA",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/VERA.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xd8e8ad3ee2B5B78a994e472DDdEdDEaCE0a66079",
+                    "underlyingToken": {
+                        "name": "Vera",
+                        "address": "0x4a0A3902e091cdb3AEc4279a6BFAC50297F0A79e",
+                        "decimals": 18,
+                        "symbol": "VERA",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/VERA.png"
+                    }
+                }
+            }
+        }, 
+        {
+            "name": "CART Vesting Voucher",
+            "address": "0xe973CdBe071D30977D42Aefc6720A5D65E406fB5",
+            "symbol": "avCART",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/CART.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xA6dF314826b81Ea8082A66b01EfE00a20e84f6ba",
+                    "underlyingToken": {
+                        "name": "Vera",
+                        "address": "0x5C8C8D560048F34E5f7f8ad71f2f81a89DBd273e",
+                        "decimals": 18,
+                        "symbol": "CART",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/CART.png"
+                    }
+                }
+            }
+        },  
+        {
+            "name": "OSWAP Vesting Voucher",
+            "address": "0x2883227b469612E1c94CB9d916556a19dD5FFE5C",
+            "symbol": "avOSWAP",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/OSWAP.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x7130BaE34dC2a1911551C8a659fde9598f26294e",
+                    "underlyingToken": {
+                        "name": "OpenSwap",
+                        "address": "0xb32aC3C79A94aC1eb258f3C830bBDbc676483c93",
+                        "decimals": 18,
+                        "symbol": "OSWAP",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/OSWAP.png"
+                    }
+                }
+            }
+        },
+        {
+            "name": "WBNB Vesting Voucher",
+            "address": "0xb142407b34d37E4c3B67422843feAdD07711F5AB",
+            "symbol": "vvWBNB",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/WBNB.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x79e45F627B93fe3071298D4695c4db33C1d0Df79",
+                    "underlyingToken": {
+                        "name": "Wrapped BNB",
+                        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                        "decimals": 18,
+                        "symbol": "WBNB",
+                        "chainId": 56,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/WBNB.png"
+                    }
+                }
+            }
+        },        
+        {
+            "name": "TIDAL Vesting Voucher",
+            "address": "0xaAFddD9a468D61BdE503a9f96A10F50b2Bdf3C56",
+            "symbol": "avTIDAL",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/TIDAL.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x67D48Ce0E776147B0d996e1FaCC0FbAA91b1CBC4",
+                    "underlyingToken": {
+                        "name": "OpenSwap",
+                        "address": "0xB41EC2c036f8a42DA384DDE6ADA79884F8b84b26",
+                        "decimals": 18,
+                        "symbol": "TIDAL",
+                        "chainId": 137,
+                        "logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/TIDAL.png"
+                    }
+                }
+            }
+        }                             
+        
+    ]
+}

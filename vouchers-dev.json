@@ -18,10 +18,18 @@
 		"voucher": {
 			"name": "SOLV Voucher Tokens",
 			"description": "Based on ERC3525"
-		}
+		},
+        "vesting": {
+			"name": "One of SOLV Voucher type",
+			"description": "Based on ERC3525"
+        },
+        "flexible": {
+			"name": "One of SOLV Voucher type",
+			"description": "Based on ERC3525"
+        }
 	},
 	"logoURI": "",
-	"keywords": ["vouchers","nft","solv"],
+	"keywords": ["voucher","nft","vesting","flexible"],
 	"tokens": [{
 		"name": "SOLV Vesting Voucher",
 		"address": "0x3788Cab48c6090dfc312c92A9FF67eEE034Cdf84",
@@ -48,7 +56,7 @@
 		"name": "DODO Vesting Voucher",
 		"address": "0x3C93e670371c41de8a5951b7ddddA50543FC1C8a",
 		"symbol": "icDODO",
-		"tags": ["vnft"],
+		"tags": ["vesting"],
 		"decimals": 0,
 		"chainId": 4,
 		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/DODO.png",
@@ -71,7 +79,7 @@
 		"name": "SOLV Flexible Voucher",
 		"address": "0xb77Ca8CB421fAE5d4790a6f5EdAD97Cfb7868aD0",
 		"symbol": "fvSOLV",
-		"tags": ["vnft"],
+		"tags": ["flexible"],
 		"decimals": 0,
 		"chainId": 4,
 		"logoURI": "https://raw.githubusercontent.com/solv-finance-dev/solv-vouchers-token-list/master/token-logo/SOLV.png",
