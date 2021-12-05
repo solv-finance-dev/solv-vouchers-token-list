@@ -33,7 +33,7 @@
 	"tokens": [
         {
             "name": "SOLV Vesting Voucher",
-            "address": "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215",
+            "address": "0x4B0dd1aDEdA251ACec75140608bAd663fB0c4cAB",
             "symbol": "icSOLV",
             "tags": ["vesting"],
             "decimals": 0,
@@ -42,10 +42,10 @@
             "extensions": {
                 "voucher": {
                     "type": "Vesting",
-                    "vestingPool": "0x4B0dd1aDEdA251ACec75140608bAd663fB0c4cAB",
+                    "vestingPool": "0x29F1fDbF029E6de40e9616f001509C71c8A334cE",
                     "underlyingToken": {
                         "name": "SOLV",
-                        "address": "0x29F1fDbF029E6de40e9616f001509C71c8A334cE",
+                        "address": "0x25cc5A7237105BD227C6A849B06e77903fE7D2A8",
                         "decimals": 18,
                         "symbol": "SOLV",
                         "chainId": 4,
