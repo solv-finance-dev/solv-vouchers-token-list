@@ -560,7 +560,29 @@
                     }
                 }
             }
-        }                             
-        
+        },                           
+        {
+            "name": "SOLV Flexible Voucher",
+            "address": "0xfEd93e410a6A45BC045bc91DEAaE1fD642e4aF7A",
+            "symbol": "fvSOLV",
+            "tags": ["flexible"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Flexible",
+                    "vestingPool": "0x75E4Cd3B2d53cb9Ffd3573f05816249d37118c2A",
+                    "underlyingToken": {
+                        "name": "SOLV",
+                        "address": "0xC073c4eD65622A9423b5e5BDe2BFC8B81EBC471c",
+                        "decimals": 18,
+                        "symbol": "SOLV",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                    }
+                }
+            }
+        }        
     ]
 }
