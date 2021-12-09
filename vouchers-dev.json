@@ -191,6 +191,29 @@
         }
     },
     {
+        "name": "BINO Vesting Voucher",
+        "address": "0xBE07A58bBEC3c73Ecd7Ed44Be97B8B494750D9a3",
+        "symbol": "avBINO",
+        "tags": ["vesting"],
+        "decimals": 0,
+        "chainId": 97,
+        "logoURI": "https://token-list.solv.finance/token-logo/BINO.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x49EFd04C390a102830C97922304607cFAA7A663A",
+                "underlyingToken": {
+                    "name": "BINO POLY",
+                    "address": "0xf8Ca318db090124E1468CC6c77f69Fd7eb78685a",
+                    "decimals": 18,
+                    "symbol": "BINO",
+                    "chainId": 97,
+                    "logoURI": "https://token-list.solv.finance/token-logo/BINO.png"
+                }
+            }
+        }
+    },         
+    {
 		"name": "DODO Vesting Voucher",
 		"address": "0x747E3Ab091151a9B4d55C4408825088865949dbC",
 		"symbol": "icDODO",
