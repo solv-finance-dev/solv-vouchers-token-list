@@ -76,6 +76,213 @@
         }
     },
     {
+		"name": "PRQ Vesting Voucher",
+		"address": "0x796067Ae4246823769656fa1CdcCdFFB4B322CA5",
+		"symbol": "icPRQ",
+		"tags": ["vesting"],
+		"decimals": 0,
+		"chainId": 4,
+		"logoURI": "https://token-list.solv.finance/token-logo/PRQ.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x4eF86bB5DEA4e73E7a91c9abBC9b18eDccef95ad",
+                "underlyingToken": {
+                    "name": "Parsiq Token",
+                    "address": "0x715D35D67E22629b508D9B3AF8D5B26E31829D38",
+                    "decimals": 18,
+                    "symbol": "PRQ",
+                    "chainId": 4,
+                    "logoURI": "https://token-list.solv.finance/token-logo/PRQ.png"
+                }
+            }
+        }
+    },
+    {
+		"name": "SFI Vesting Voucher",
+		"address": "0x7C62C8c8bEC5de817880B79f00fe3088d880AB41",
+		"symbol": "icSFI",
+		"tags": ["vesting"],
+		"decimals": 0,
+		"chainId": 4,
+		"logoURI": "https://token-list.solv.finance/token-logo/SFI.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x731fE6B19c946BCCf2cB6989cA8d87a2d3f12481",
+                "underlyingToken": {
+                    "name": "Saffron Finance",
+                    "address": "0x292C0f942b8431734f4747BBF84a2C1101327a89",
+                    "decimals": 18,
+                    "symbol": "SFI",
+                    "chainId": 4,
+                    "logoURI": "https://token-list.solv.finance/token-logo/SFI.png"
+                }
+            }
+        }
+    },
+    {
+		"name": "Auction Vesting Voucher",
+		"address": "0x40e23C6ed1A580A980D6A838b60b3628633AFbF9",
+		"symbol": "icAuction",
+		"tags": ["vesting"],
+		"decimals": 0,
+		"chainId": 4,
+		"logoURI": "https://token-list.solv.finance/token-logo/AUCTION.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0xf3cF214B07019714a73e66F34F33D16412BBC5c9",
+                "underlyingToken": {
+                    "name": "Bounce Auction Token",
+                    "address": "0x5a25DB2aE8faA3eeb6B0bB24BECB66AC84a27623",
+                    "decimals": 18,
+                    "symbol": "Auction",
+                    "chainId": 4,
+                    "logoURI": "https://token-list.solv.finance/token-logo/AUCTION.png"
+                }
+            }
+        }
+    },
+    {
+		"name": "PROM Vesting Voucher",
+		"address": "0x8d23799C9935Aa1322aAd1f70066860B01a79b45",
+		"symbol": "avPROM",
+		"tags": ["vesting"],
+		"decimals": 0,
+		"chainId": 4,
+		"logoURI": "https://token-list.solv.finance/token-logo/PROM.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x5A2f2bA9EcFeD0b525c9530B7431c5D8137FF251",
+                "underlyingToken": {
+                    "name": "Token Prometeus Network",
+                    "address": "0xeCDBcBCAD7cBeCfF620957cFDFE5357095934B3c",
+                    "decimals": 18,
+                    "symbol": "PROM",
+                    "chainId": 4,
+                    "logoURI": "https://token-list.solv.finance/token-logo/PROM.png"
+                }
+            }
+        }
+    }, 
+    {
+		"name": "SOLV Vesting Voucher",
+		"address": "0xbd0AD78C460d3E67426c5F4e470F470D071A7cA9",
+		"symbol": "icSOLV",
+		"tags": ["voucher"],
+		"decimals": 0,
+		"chainId": 97,
+		"logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x7BfB85c2C871C1F6A0cF33aEc8615B757853F28C",
+                "underlyingToken": {
+                    "name": "SOLV",
+                    "address": "0x20a4862641e1298674b2c1A98F8aCD1eE6c67e5C",
+                    "decimals": 18,
+                    "symbol": "SOLV",
+                    "chainId": 97,
+                    "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                }
+            }
+        }
+    },  
+    {
+		"name": "DODO Vesting Voucher",
+		"address": "0x747E3Ab091151a9B4d55C4408825088865949dbC",
+		"symbol": "icDODO",
+		"tags": ["vesting"],
+		"decimals": 0,
+		"chainId": 97,
+		"logoURI": "https://token-list.solv.finance/token-logo/DODO.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x63C169358fCb864ae7E5fCEa4b615607D86F9dB7",
+                "underlyingToken": {
+                    "name": "DoDo Bird",
+                    "address": "0x329DB5Aa10CcBCB2628A50672d6520ECD45b50bC",
+                    "decimals": 18,
+                    "symbol": "DODO",
+                    "chainId": 97,
+                    "logoURI": "https://token-list.solv.finance/token-logo/DODO.png"
+                }
+            }
+        }
+    }, 
+    {
+		"name": "PROM Vesting Voucher",
+		"address": "0xBBb5d4De5241297196d3Cfd43F77a30859795aAa",
+		"symbol": "avPROM",
+		"tags": ["vesting"],
+		"decimals": 0,
+		"chainId": 97,
+		"logoURI": "https://token-list.solv.finance/token-logo/PROM.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x67918d5B6352a4787a093E810D16ca69070018df",
+                "underlyingToken": {
+                    "name": "Token Prometeus Network",
+                    "address": "0xac33A29516Bc8aCAd4e3e89754b1a9b48Fc9D0Cf",
+                    "decimals": 18,
+                    "symbol": "PROM",
+                    "chainId": 97,
+                    "logoURI": "https://token-list.solv.finance/token-logo/PROM.png"
+                }
+            }
+        }
+    }, 
+    {
+		"name": "IDIA Vesting Voucher",
+		"address": "0xDb55239B984Ad081d5C16EaBb925E7A0f5059757",
+		"symbol": "avIDIA",
+		"tags": ["vesting"],
+		"decimals": 0,
+		"chainId": 97,
+		"logoURI": "https://token-list.solv.finance/token-logo/IDIA.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x57323748Ac32135b4964Bb18c66770f0Ac283Cd7",
+                "underlyingToken": {
+                    "name": "TIDIA",
+                    "address": "0x559f7aFc3312Ec94A8cc0dd6275716c68d345787",
+                    "decimals": 18,
+                    "symbol": "TIDIA",
+                    "chainId": 97,
+                    "logoURI": "https://token-list.solv.finance/token-logo/IDIA.png"
+                }
+            }
+        }
+    },  
+    {
+		"name": "SOLV Vesting Voucher",
+		"address": "0xbd0AD78C460d3E67426c5F4e470F470D071A7cA9",
+		"symbol": "icSOLV",
+		"tags": ["voucher"],
+		"decimals": 0,
+		"chainId": 80001,
+		"logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0xEF375CE335123F6a290aBA9da229d0828569336d",
+                "underlyingToken": {
+                    "name": "SOLV",
+                    "address": "0x20a4862641e1298674b2c1A98F8aCD1eE6c67e5C",
+                    "decimals": 18,
+                    "symbol": "SOLV",
+                    "chainId": 80001,
+                    "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                }
+            }
+        }
+    },                           
+    {
 		"name": "SOLV Flexible Voucher",
 		"address": "0xb77Ca8CB421fAE5d4790a6f5EdAD97Cfb7868aD0",
 		"symbol": "fvSOLV",
