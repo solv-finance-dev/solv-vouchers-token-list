@@ -55,6 +55,29 @@
             }
         }, 
         {
+            "name": "SOLV Vesting Voucher",
+            "address": "0x6Ce48759B6bEB972a13A7c1F7255E4c7477eAa5D",
+            "symbol": "icSOLV",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xE5742912EDb4599779ACC1CE2acB6a06E01f1089",
+                    "underlyingToken": {
+                        "name": "SOLV",
+                        "address": "0xC073c4eD65622A9423b5e5BDe2BFC8B81EBC471c",
+                        "decimals": 18,
+                        "symbol": "SOLV",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                    }
+                }
+            }
+        },         
+        {
             "name": "PRQ Vesting Voucher",
             "address": "0x705d6b0c912a33A8643b5F7E42B5c7CA386A3b32",
             "symbol": "icPRQ",
