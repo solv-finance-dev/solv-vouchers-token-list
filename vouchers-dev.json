@@ -26,6 +26,10 @@
         "flexible": {
 			"name": "One of SOLV Voucher type",
 			"description": "Based on ERC3525"
+        },
+        "convertible": {
+			"name": "One of SOLV Voucher type",
+			"description": "Based on ERC3525"            
         }
 	},
 	"logoURI": "",
@@ -340,6 +344,29 @@
             "voucher": {
                 "type": "Flexible",
                 "vestingPool": "0x78465366fdA370043Fb74A55F92EED7dDa76dB31",
+                "underlyingToken": {
+                    "name": "SOLV",
+                    "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
+                    "decimals": 18,
+                    "symbol": "SOLV",
+                    "chainId": 4,
+                    "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                }
+            }
+        }
+    },
+    {
+		"name": "SOLV Convertible Voucher",
+		"address": "0x64C44CF533fDc5fb3997c19aa6a895509780f3Cf",
+		"symbol": "cvSOLV",
+		"tags": ["convertible"],
+		"decimals": 0,
+		"chainId": 4,
+		"logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+        "extensions": {
+            "voucher": {
+                "type": "Convertible",
+                "vestingPool": "0xFe65B3f68E93538F56c00675d2B0C0d6963438D8",
                 "underlyingToken": {
                     "name": "SOLV",
                     "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
