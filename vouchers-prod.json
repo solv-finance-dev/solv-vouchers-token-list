@@ -583,7 +583,99 @@
                     }
                 }
             }
-        },                           
+        },
+        {
+            "name": "iZi Vesting Voucher",
+            "address": "0x705d6b0c912a33A8643b5F7E42B5c7CA386A3b32",
+            "symbol": "vviZi",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x3A076c72219eCaC060A09Ce1006f4194007a7C0f",
+                    "underlyingToken": {
+                        "name": "izumi Token (iZi)",
+                        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+                        "decimals": 18,
+                        "symbol": "iZi",
+                        "chainId": 137,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IZI.png"
+                    }
+                }
+            }
+        }, 
+        {
+            "name": "iZi Vesting Voucher",
+            "address": "0x6f0f7870aA4079CcB4c3Ce614a8A0517A1D60097",
+            "symbol": "vviZi",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x7C5ad75135bd85a2FC8D9eE7F06fb06ED91D8a31",
+                    "underlyingToken": {
+                        "name": "izumi Token (iZi)",
+                        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+                        "decimals": 18,
+                        "symbol": "iZi",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IZI.png"
+                    }
+                }
+            }
+        },  
+        {
+            "name": "iZi Flexible Voucher",
+            "address": "0xa4ec0d960A7012Ce3A5477E7b39594a5b003acEd",
+            "symbol": "fviZi",
+            "tags": ["flexible"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Flexible",
+                    "vestingPool": "0x3fCd5AA0C5156ec068b1f5ACF519AC96405E13F8",
+                    "underlyingToken": {
+                        "name": "izumi Token (iZi)",
+                        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+                        "decimals": 18,
+                        "symbol": "iZi",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IZI.png"
+                    }
+                }
+            }
+        },  
+        {
+            "name": "iZi Flexible Voucher",
+            "address": "0x3Ed566fbAdA3Daf43C0b4F624102c7E10A925B9E",
+            "symbol": "fviZi",
+            "tags": ["flexible"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Flexible",
+                    "vestingPool": "0xaDB9AB302ECd551264a718d43aE6B3C255a8afa5",
+                    "underlyingToken": {
+                        "name": "izumi Token (iZi)",
+                        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+                        "decimals": 18,
+                        "symbol": "iZi",
+                        "chainId": 137,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IZI.png"
+                    }
+                }
+            }
+        },                                                         
         {
             "name": "SOLV Flexible Voucher",
             "address": "0xfEd93e410a6A45BC045bc91DEAaE1fD642e4aF7A",
