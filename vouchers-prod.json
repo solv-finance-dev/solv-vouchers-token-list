@@ -629,7 +629,30 @@
                     }
                 }
             }
-        },  
+        }, 
+        {
+            "name": "DEVT Vesting Voucher",
+            "address": "0xe98Ec63665488f7910aDAcF357683dF9ae1be6c2",
+            "symbol": "vvDEVT",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/DEVT.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x7Bb510d230f4b2171F7cC203DB06b254b3868002",
+                    "underlyingToken": {
+                        "name": "Decentralized Eternal Virtual Traveller",
+                        "address": "0xB5c578947de0fd71303F71F2C3d41767438bD0de",
+                        "decimals": 18,
+                        "symbol": "DEVT",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/DEVT.png"
+                    }
+                }
+            }
+        },          
         {
             "name": "iZi Flexible Voucher",
             "address": "0xa4ec0d960A7012Ce3A5477E7b39594a5b003acEd",
