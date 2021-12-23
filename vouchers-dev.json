@@ -54,6 +54,14 @@
                     "chainId": 4,
                     "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                 }
+            },
+            "markets": {
+                "primary": [
+                    "0x22CbD0173c4B8eF095f0eF7D78a2422f81c6B1C4"
+                ],
+                "secondary": [
+                    "0x4D5e70E032Fa4f665ae61381C5758702fF13fE43"
+                ]
             }
         }
     },{
@@ -76,7 +84,14 @@
                     "chainId": 4,
                     "logoURI": "https://token-list.solv.finance/token-logo/DODO.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0x4D5e70E032Fa4f665ae61381C5758702fF13fE43"
+                ]
+            }            
         }
     },
     {
@@ -99,7 +114,14 @@
                     "chainId": 4,
                     "logoURI": "https://token-list.solv.finance/token-logo/PRQ.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0x4D5e70E032Fa4f665ae61381C5758702fF13fE43"
+                ]
+            }            
         }
     },
     {
@@ -122,7 +144,14 @@
                     "chainId": 4,
                     "logoURI": "https://token-list.solv.finance/token-logo/SFI.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0x4D5e70E032Fa4f665ae61381C5758702fF13fE43"
+                ]
+            }            
         }
     },
     {
@@ -145,7 +174,14 @@
                     "chainId": 4,
                     "logoURI": "https://token-list.solv.finance/token-logo/AUCTION.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0x4D5e70E032Fa4f665ae61381C5758702fF13fE43"
+                ]
+            }            
         }
     },
     {
@@ -168,7 +204,14 @@
                     "chainId": 4,
                     "logoURI": "https://token-list.solv.finance/token-logo/PROM.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0x4D5e70E032Fa4f665ae61381C5758702fF13fE43"
+                ]
+            }             
         }
     }, 
     {
@@ -191,8 +234,15 @@
                     "chainId": 97,
                     "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                 }
-            }
-        }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                ]
+            }             
+        }        
     },
     {
         "name": "BINO Vesting Voucher",
@@ -214,7 +264,14 @@
                     "chainId": 97,
                     "logoURI": "https://token-list.solv.finance/token-logo/BINO.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                ]
+            }             
         }
     },         
     {
@@ -237,7 +294,14 @@
                     "chainId": 97,
                     "logoURI": "https://token-list.solv.finance/token-logo/DODO.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                ]
+            }            
         }
     }, 
     {
@@ -260,7 +324,14 @@
                     "chainId": 97,
                     "logoURI": "https://token-list.solv.finance/token-logo/PROM.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                ]
+            }            
         }
     }, 
     {
@@ -283,7 +354,14 @@
                     "chainId": 97,
                     "logoURI": "https://token-list.solv.finance/token-logo/IDIA.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                ]
+            }            
         }
     },  
     {
@@ -306,7 +384,14 @@
                     "chainId": 80001,
                     "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                    "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                ]
+            }             
         }
     },   
     {
@@ -352,7 +437,15 @@
                     "chainId": 4,
                     "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                    "0x22CbD0173c4B8eF095f0eF7D78a2422f81c6B1C4"
+                ],
+                "secondary": [
+                    "0x4D5e70E032Fa4f665ae61381C5758702fF13fE43"
+                ]
+            }            
         }
     },
     {
@@ -375,7 +468,15 @@
                     "chainId": 4,
                     "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                    "0xEA3AA5F8CaF76b8E05b6EAEb8A29055b87762445"
+                ],
+                "secondary": [
+                    "0x370727c69c308966596Dc0E0672b2Da7938D5663"
+                ]
+            }                       
         }
     }]
 }
