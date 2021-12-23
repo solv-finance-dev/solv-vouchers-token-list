@@ -115,7 +115,13 @@
                     "chainId": 97,
                     "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                 }
-            }
+            },
+            "markets": {
+                "primary": [
+                ],
+                "secondary": [
+                ]
+            }             
         }
     },                            
     {
