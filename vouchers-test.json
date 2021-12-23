@@ -51,9 +51,47 @@
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }                  
             }
         }, 
+        {
+            "name": "SOLV Flexible Voucher",
+            "address": "0xDa0430EE88a4484C27d89EF722F5c38417A15BFA",
+            "symbol": "fvSOLV",
+            "tags": ["flexible"],
+            "decimals": 0,
+            "chainId": 97,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Flexible",
+                    "vestingPool": "0xa6F11C80336a766388C757F2E0FBfcd01953e1bB",
+                    "underlyingToken": {
+                        "name": "SOLV",
+                        "address": "0x20a4862641e1298674b2c1A98F8aCD1eE6c67e5C",
+                        "decimals": 18,
+                        "symbol": "SOLV",
+                        "chainId": 97,
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                    }
+                },
+                "markets": {
+                    "primary": [
+                        "0xAc0214F631bce34E87f99177E24D9D3Aa45e3e4D"
+                    ],
+                    "secondary": [
+                        "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                    ]
+                }                 
+            }
+        },        
         {
             "name": "PRQ Vesting Voucher",
             "address": "0x286762591b4d820cA18629e0f1008739C8B3B984",
@@ -74,7 +112,14 @@
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/PRQ.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }                
             }
         },   
         {
@@ -97,7 +142,14 @@
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/SFI.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }                
             }
         },  
         {
@@ -120,7 +172,14 @@
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/AUCTION.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }                
             }
         },  
         {
@@ -143,7 +202,14 @@
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/PROM.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }                
             }
         }, 
         {
@@ -166,7 +232,14 @@
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/SLD.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }                
             }
         },  
         {
@@ -189,7 +262,14 @@
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/VHIGH.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }                
             }
         },
         {
@@ -212,7 +292,14 @@
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/YIN.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }                
             }
         },                                                        
         {
@@ -235,7 +322,15 @@
                         "chainId": 97,
                         "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                        "0xAc0214F631bce34E87f99177E24D9D3Aa45e3e4D"
+                    ],
+                    "secondary": [
+                        "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                    ]
+                }                
             }
         },
         {
@@ -258,7 +353,14 @@
                         "chainId": 80001,
                         "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                    ]
+                }                 
             }
         },  
         {
@@ -281,7 +383,14 @@
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/DODO.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }                
             }
         },      
         {
@@ -304,7 +413,14 @@
                         "chainId": 97,
                         "logoURI": "https://token-list.solv.finance/token-logo/DODO.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                    ]
+                }                
             }
         },
         {
@@ -327,7 +443,14 @@
                         "chainId": 97,
                         "logoURI": "https://token-list.solv.finance/token-logo/PROM.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                    ]
+                }                
             }
         },
         {
@@ -350,7 +473,14 @@
                         "chainId": 97,
                         "logoURI": "https://token-list.solv.finance/token-logo/BINO.png"
                     }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                    ]
+                }                
             }
         },  
         {
@@ -373,30 +503,14 @@
                         "chainId": 97,
                         "logoURI": "https://token-list.solv.finance/token-logo/IDIA.png"
                     }
-                }
-            }
-        },  
-        {
-            "name": "SOLV Flexible Voucher",
-            "address": "0xDa0430EE88a4484C27d89EF722F5c38417A15BFA",
-            "symbol": "fvSOLV",
-            "tags": ["flexible"],
-            "decimals": 0,
-            "chainId": 97,
-            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
-            "extensions": {
-                "voucher": {
-                    "type": "Flexible",
-                    "vestingPool": "0xa6F11C80336a766388C757F2E0FBfcd01953e1bB",
-                    "underlyingToken": {
-                        "name": "SOLV",
-                        "address": "0x20a4862641e1298674b2c1A98F8aCD1eE6c67e5C",
-                        "decimals": 18,
-                        "symbol": "SOLV",
-                        "chainId": 97,
-                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
-                    }
-                }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                        "0xc8DBd2edC8F8Ee43958cAa08bb9A3D32E3E5E0c2"
+                    ]
+                }                
             }
         }
     ]
