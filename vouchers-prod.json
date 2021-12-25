@@ -751,7 +751,36 @@
                     ]
                 }                
             }
-        },        
+        }, 
+        {
+            "name": "MATE Vesting Voucher",
+            "address": "0x594006748ae4435567Ae2e30f2A3A960F4a9559B",
+            "symbol": "vvMATE",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/MATE.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x435088fc53fc1aeA18316F22716c740DA5F9053F",
+                    "underlyingToken": {
+                        "name": "Vmates Token",
+                        "address": "0x696c2D3c711d5727c3686672F411583faeDAA29F",
+                        "decimals": 18,
+                        "symbol": "MATE",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/MATE.png"
+                    }
+                },
+                "markets": {
+                    "primary": [
+                    ],
+                    "secondary": [
+                    ]
+                }                
+            }
+        },               
         {
             "name": "TIDAL Vesting Voucher",
             "address": "0xaAFddD9a468D61BdE503a9f96A10F50b2Bdf3C56",
