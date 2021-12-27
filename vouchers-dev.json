@@ -156,19 +156,19 @@
         }
     },
     {
-		"name": "SOLV Convertible Voucher",
-		"address": "0x64C44CF533fDc5fb3997c19aa6a895509780f3Cf",
-		"symbol": "cvSOLV",
-		"tags": ["convertible"],
-		"decimals": 0,
-		"chainId": 4,
-		"logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+        "name": "SOLV Convertible Voucher",
+        "address": "0x51D59B4c4D2904c83155A95Db163268F0C73B8A8",
+        "symbol": "cvSOLV",
+        "tags": ["convertible"],
+        "decimals": 0,
+        "chainId": 4,
+        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
         "extensions": {
             "voucher": {
                 "type": "Convertible",
-                "vestingPool": "0xFe65B3f68E93538F56c00675d2B0C0d6963438D8",
+                "vestingPool": "0x583FE3e42Ffb42A454677eFb94439423f1A2AA17",
                 "underlyingToken": {
-                    "name": "SOLV",
+                    "name": "Solv",
                     "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
                     "decimals": 18,
                     "symbol": "SOLV",
@@ -177,13 +177,9 @@
                 }
             },
             "markets": {
-                "primary": [
-                    "0xEA3AA5F8CaF76b8E05b6EAEb8A29055b87762445"
-                ],
-                "secondary": [
-                    "0x370727c69c308966596Dc0E0672b2Da7938D5663"
-                ]
-            }                       
+                "primary": ["0x6E3Ab31035E8e8709c46F38c07f7F3C545eEdcad"],
+                "secondary": []
+            }
         }
     },
     {
