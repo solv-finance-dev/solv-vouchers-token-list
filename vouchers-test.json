@@ -512,6 +512,39 @@
                     ]
                 }                
             }
-        }
+        },
+        {
+            "name":"CLR Vesting Voucher",
+            "address":"0x9603F5F7A0fAD96e00987b744441A3d890325cB0",
+            "symbol":"vvCLR",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":4,
+            "logoURI":"https://token-list.solv.finance/token-logo/CLR.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x94dB8193587d58d8ca1430683bc780C974eE024D",
+                    "underlyingToken":{
+                        "name":"CLR",
+                        "address":"0xd4Af4C51D609Ae83BE669fc4C211DE26Ca62e268",
+                        "decimals":18,
+                        "symbol":"CLR",
+                        "chainId":4,
+                        "logoURI":"https://token-list.solv.finance/token-logo/CLR.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }
+            }
+        }              
     ]
 }

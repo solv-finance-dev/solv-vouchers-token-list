@@ -962,6 +962,72 @@
                     ]
                 }                  
             }
-        }      
+        },
+        {
+            "name":"CLH Vesting Voucher",
+            "address":"0x74686e352C0F6AaD7A44e89cfeb5986fBD0F2133",
+            "symbol":"vvCLH",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":1,
+            "logoURI":"https://token-list.solv.finance/token-logo/CLH.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x188A605073cf3b4c9616a5Aacf35e0aB4E3dC817",
+                    "underlyingToken":{
+                        "name":"CLearingHouse Token",
+                        "address":"0xD7D8f3b8Bc8bC48d3AcC37879EABA7b85889FA52",
+                        "decimals":18,
+                        "symbol":"CLH",
+                        "chainId":1,
+                        "logoURI":"https://token-list.solv.finance/token-logo/CLH.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
+                }
+            }
+        },
+        {
+            "name":"ARDN Vesting Voucher",
+            "address":"0x8A868E932108C43daf591cC65FCc0008893369c9",
+            "symbol":"vvARDN",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":56,
+            "logoURI":"https://token-list.solv.finance/token-logo/ARDN.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0xB0Be3E5abdba98364649b23284C2e67785D00F47",
+                    "underlyingToken":{
+                        "name":"Ariadne",
+                        "address":"0xa0A9961b7477D1a530f06a1ee805d5E532e73d97",
+                        "decimals":18,
+                        "symbol":"ARDN",
+                        "chainId":56,
+                        "logoURI":"https://token-list.solv.finance/token-logo/ARDN.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        }                        
     ]
 }
