@@ -1028,6 +1028,141 @@
                     ]
                 }
             }
-        }                        
+        },
+        {
+            "name": "WBTC Vesting Voucher",
+            "address": "0x30FdA944075c1b7E92498CE6358BCEF1284FEBFA",
+            "symbol": "vvWBTC",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/WBTC.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xF61785b97c19BD08F60cF42B4e32ff3Cc6704210",
+                    "underlyingToken": {
+                        "name": "Wrapped BTC",
+                        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                        "decimals": 8,
+                        "symbol": "WBTC",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/WBTC.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xD91A208995bfBde9D133c39417FBD352e595650b"]
+                }
+            }
+        },
+        {
+            "name": "WETH Vesting Voucher",
+            "address": "0xf6Ee76141E5964F5fF2831C3CB39A90f1541794A",
+            "symbol": "vvWETH",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/WETH.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x63eDd2bdf6120479e868029f9fD038a8D964bd0F",
+                    "underlyingToken": {
+                        "name": "Wrapped Ether",
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "decimals": 18,
+                        "symbol": "WETH",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/WETH.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xD91A208995bfBde9D133c39417FBD352e595650b"]
+                }
+            }
+        },
+        {
+            "name": "HIGH Vesting Voucher",
+            "address": "0x0308796fA5BdA7a991520a2fbD1eA8C0c81F66d1",
+            "symbol": "vvHIGH",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/HIGH.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xeB87240112c8EbAf59800455CE6526AC3FC4A8f2",
+                    "underlyingToken": {
+                        "name": "Highstreet token",
+                        "address": "0x71Ab77b7dbB4fa7e017BC15090b2163221420282",
+                        "decimals": 18,
+                        "symbol": "HIGH",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/HIGH.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xD91A208995bfBde9D133c39417FBD352e595650b"]
+                }
+            }
+        },
+        {
+            "name": "HIGH Vesting Voucher",
+            "address": "0x670Bf192f753B28E0ff4EfA943dcbACd8f80D85C",
+            "symbol": "vvHIGH",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/HIGH.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x05173137102372D18BFB09437eA5a85e4deF4eb1",
+                    "underlyingToken": {
+                        "name": "Highstreet Token",
+                        "address": "0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63",
+                        "decimals": 18,
+                        "symbol": "HIGH",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/HIGH.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0x758ae0c48ff013D18b3D63Ca79408e70A977d496"]
+                }
+            }
+        },
+        {
+            "name": "SIN Vesting Voucher",
+            "address": "0x841d46feAae7e747AD425E6378b4f3b88f8A6855",
+            "symbol": "vvSIN",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/SIN.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x9B14401bE6291f68d3EaD6C82EAD0E65B1499b52",
+                    "underlyingToken": {
+                        "name": "SinCity Token",
+                        "address": "0x6397de0F9aEDc0F7A8Fa8B438DDE883B9c201010",
+                        "decimals": 18,
+                        "symbol": "SIN",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/SIN.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0x758ae0c48ff013D18b3D63Ca79408e70A977d496"]
+                }
+            }
+        }                                
     ]
 }

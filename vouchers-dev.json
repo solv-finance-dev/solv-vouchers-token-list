@@ -481,5 +481,59 @@
                 ]
             }            
         }
+    },
+    {
+        "name": "WETH Vesting Voucher",
+        "address": "0x1ea33d1109E2511d015A75EDc7A51c986d7CcF33",
+        "symbol": "vvWETH",
+        "tags": ["vesting"],
+        "decimals": 0,
+        "chainId": 4,
+        "logoURI": "https://token-list.solv.finance/token-logo/WETH.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0xECFa05Ae6ED30af02A5Ab105A10b693E84966E35",
+                "underlyingToken": {
+                    "name": "Wrapped Ether",
+                    "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+                    "decimals": 18,
+                    "symbol": "WETH",
+                    "chainId": 4,
+                    "logoURI": "https://token-list.solv.finance/token-logo/WETH.png"
+                }
+            },
+            "markets": {
+                "primary": [],
+                "secondary": []
+            }
+        }
+    },
+    {
+        "name": "WBTC Vesting Voucher",
+        "address": "0x52605561ce247BbC34919100Fc4C7eb5E10E8852",
+        "symbol": "vvWBTC",
+        "tags": ["vesting"],
+        "decimals": 0,
+        "chainId": 4,
+        "logoURI": "https://token-list.solv.finance/token-logo/WBTC.png",
+        "extensions": {
+            "voucher": {
+                "type": "Vesting",
+                "vestingPool": "0x627d6C202770F7d368c8E847Eb661e2c10460ad8",
+                "underlyingToken": {
+                    "name": "Wrapped BTC",
+                    "address": "0x577D296678535e4903D59A4C929B718e1D575e0A",
+                    "decimals": 8,
+                    "symbol": "WBTC",
+                    "chainId": 4,
+                    "logoURI": "https://token-list.solv.finance/token-logo/WBTC.png"
+                }
+            },
+            "markets": {
+                "primary": [],
+                "secondary": []
+            }
+        }
     }]
 }

@@ -91,7 +91,34 @@
                     ]
                 }                 
             }
-        },        
+        }, 
+        {
+            "name": "SOLV Convertible Voucher",
+            "address": "0x1D9657039a3CcC198ae056760fa2648a2E6bF8FD",
+            "symbol": "cvSOLV",
+            "tags": ["convertible"],
+            "decimals": 0,
+            "chainId": 4,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Convertible",
+                    "vestingPool": "0xE3a06387109993d7429b887566Fb0fbB1004A362",
+                    "underlyingToken": {
+                        "name": "Solv",
+                        "address": "0x25cc5A7237105BD227C6A849B06e77903fE7D2A8",
+                        "decimals": 18,
+                        "symbol": "SOLV",
+                        "chainId": 4,
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                    }
+                },
+                "markets": {
+                    "primary": ["0x824484854aF47766f02CC2D4b555175079e5a56d"],
+                    "secondary": []
+                }
+            }
+        },               
         {
             "name": "PRQ Vesting Voucher",
             "address": "0x286762591b4d820cA18629e0f1008739C8B3B984",
