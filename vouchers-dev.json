@@ -156,29 +156,34 @@
         }
     },
     {
-        "name": "SOLV Convertible Voucher",
-        "address": "0x51D59B4c4D2904c83155A95Db163268F0C73B8A8",
-        "symbol": "cvSOLV",
-        "tags": ["convertible"],
-        "decimals": 0,
-        "chainId": 4,
-        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
-        "extensions": {
-            "voucher": {
-                "type": "Convertible",
-                "vestingPool": "0x583FE3e42Ffb42A454677eFb94439423f1A2AA17",
-                "underlyingToken": {
-                    "name": "Solv",
-                    "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
-                    "decimals": 18,
-                    "symbol": "SOLV",
-                    "chainId": 4,
-                    "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+        "name":"SOLV Convertible Voucher",
+        "address":"0x2503f34cF0587E9FdbD547cfC4d59eC06De47962",
+        "symbol":"cvSOLV",
+        "tags":[
+            "convertible"
+        ],
+        "decimals":0,
+        "chainId":4,
+        "logoURI":"https://token-list.solv.finance/token-logo/SOLV.png",
+        "extensions":{
+            "voucher":{
+                "type":"Convertible",
+                "vestingPool":"0xAa69229384f01967EB83B5349526919555e4334A",
+                "underlyingToken":{
+                    "name":"Solv",
+                    "address":"0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
+                    "decimals":18,
+                    "symbol":"SOLV",
+                    "chainId":4,
+                    "logoURI":"https://token-list.solv.finance/token-logo/SOLV.png"
                 }
             },
-            "markets": {
-                "primary": ["0x6E3Ab31035E8e8709c46F38c07f7F3C545eEdcad"],
-                "secondary": []
+            "markets":{
+                "primary":[
+                    "0xfEDE8e5D19636543B19B3c2AaA21907fe870e2ba"
+                ],
+                "secondary":[
+                ]
             }
         }
     },
@@ -533,6 +538,38 @@
             "markets": {
                 "primary": [],
                 "secondary": []
+            }
+        }
+    },{
+        "name":"USF Convertible Voucher",
+        "address":"0x90d6528c66733e3C5D83331beb5524e0384873aE",
+        "symbol":"cvUSF",
+        "tags":[
+            "convertible"
+        ],
+        "decimals":0,
+        "chainId":4,
+        "logoURI":"https://token-list.solv.finance/token-logo/USF.png",
+        "extensions":{
+            "voucher":{
+                "type":"Convertible",
+                "vestingPool":"0x2b39ef46De0a559fFB41499655C8b6dfD526a9aA",
+                "underlyingToken":{
+                    "name":"Unslashed Finance Governance Token",
+                    "address":"0x4271F6b03A0Dec5CA77b69E1C6119bD71f4820b3",
+                    "decimals":18,
+                    "symbol":"USF",
+                    "chainId":4,
+                    "logoURI":"https://token-list.solv.finance/token-logo/USF.png"
+                }
+            },
+            "markets":{
+                "primary":[
+                    "0xfEDE8e5D19636543B19B3c2AaA21907fe870e2ba"
+                ],
+                "secondary":[
+    
+                ]
             }
         }
     }]

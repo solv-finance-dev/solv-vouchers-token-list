@@ -93,29 +93,35 @@
             }
         }, 
         {
-            "name": "SOLV Convertible Voucher",
-            "address": "0x1D9657039a3CcC198ae056760fa2648a2E6bF8FD",
-            "symbol": "cvSOLV",
-            "tags": ["convertible"],
-            "decimals": 0,
-            "chainId": 4,
-            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
-            "extensions": {
-                "voucher": {
-                    "type": "Convertible",
-                    "vestingPool": "0xE3a06387109993d7429b887566Fb0fbB1004A362",
-                    "underlyingToken": {
-                        "name": "Solv",
-                        "address": "0x25cc5A7237105BD227C6A849B06e77903fE7D2A8",
-                        "decimals": 18,
-                        "symbol": "SOLV",
-                        "chainId": 4,
-                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+            "name":"SOLV Convertible Voucher",
+            "address":"0x4c44B167fFF5e95f6Bf2c46C54B9C33F9EdEf43E",
+            "symbol":"cvSOLV",
+            "tags":[
+                "convertible"
+            ],
+            "decimals":0,
+            "chainId":4,
+            "logoURI":"https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Convertible",
+                    "vestingPool":"0x9D2343Accf57F384183AB349ADd34F727a0ea46A",
+                    "underlyingToken":{
+                        "name":"Solv",
+                        "address":"0x25cc5A7237105BD227C6A849B06e77903fE7D2A8",
+                        "decimals":18,
+                        "symbol":"SOLV",
+                        "chainId":4,
+                        "logoURI":"https://token-list.solv.finance/token-logo/SOLV.png"
                     }
                 },
-                "markets": {
-                    "primary": ["0x824484854aF47766f02CC2D4b555175079e5a56d"],
-                    "secondary": []
+                "markets":{
+                    "primary":[
+                        "0xE1072Fd98EF69aD6Dd2818C272c6cd5CFe927AC4"
+                    ],
+                    "secondary":[
+        
+                    ]
                 }
             }
         },               
