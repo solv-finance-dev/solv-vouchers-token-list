@@ -1163,6 +1163,39 @@
                     "secondary": ["0x758ae0c48ff013D18b3D63Ca79408e70A977d496"]
                 }
             }
+        },
+        {
+            "name":"PDT Vesting Voucher",
+            "address":"0x522f8fe415e08b600B8BD6c1db74a1B696845d0d",
+            "symbol":"vvPDT",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":1,
+            "logoURI":"https://token-list.solv.finance/token-logo/PDT.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0xdD4cd02b42c1B67AFD49f9B866Fa91A88C59Cb14",
+                    "underlyingToken":{
+                        "name":"Paragons DAO Token",
+                        "address":"0x375aBB85C329753b1Ba849a601438AE77eEc9893",
+                        "decimals":18,
+                        "symbol":"PDT",
+                        "chainId":1,
+                        "logoURI":"https://token-list.solv.finance/token-logo/PDT.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
+                }
+            }
         }                                
     ]
 }
