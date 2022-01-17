@@ -157,7 +157,7 @@
     },
     {
         "name":"SOLV Convertible Voucher",
-        "address":"0x2503f34cF0587E9FdbD547cfC4d59eC06De47962",
+        "address":"0x8575e0ecac5a8c171eFcC5fd2fAd6a0E42c7d242",
         "symbol":"cvSOLV",
         "tags":[
             "convertible"
@@ -168,7 +168,7 @@
         "extensions":{
             "voucher":{
                 "type":"Convertible",
-                "vestingPool":"0xAa69229384f01967EB83B5349526919555e4334A",
+                "vestingPool":"0x9E81751823933707fFb88f7862AC4c006D94569c",
                 "underlyingToken":{
                     "name":"Solv",
                     "address":"0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
@@ -180,9 +180,10 @@
             },
             "markets":{
                 "primary":[
-                    "0xfEDE8e5D19636543B19B3c2AaA21907fe870e2ba"
+                    "0x58817F72267FAE3b8148de40f6A234bb111cb4D9"
                 ],
                 "secondary":[
+                    "0x1c40228D278D6dB2ED47eDda56bD96847F4ab5a1"
                 ]
             }
         }
@@ -542,7 +543,7 @@
         }
     },{
         "name":"USF Convertible Voucher",
-        "address":"0x90d6528c66733e3C5D83331beb5524e0384873aE",
+        "address":"0xD755d5AdDeFE9331cf6e9b25E8A435178137866f",
         "symbol":"cvUSF",
         "tags":[
             "convertible"
@@ -553,7 +554,7 @@
         "extensions":{
             "voucher":{
                 "type":"Convertible",
-                "vestingPool":"0x2b39ef46De0a559fFB41499655C8b6dfD526a9aA",
+                "vestingPool":"0x708d38C9cbA18722fB4a489a0ebaEE763742765b",
                 "underlyingToken":{
                     "name":"Unslashed Finance Governance Token",
                     "address":"0x4271F6b03A0Dec5CA77b69E1C6119bD71f4820b3",
@@ -565,10 +566,10 @@
             },
             "markets":{
                 "primary":[
-                    "0xfEDE8e5D19636543B19B3c2AaA21907fe870e2ba"
+                    "0x58817F72267FAE3b8148de40f6A234bb111cb4D9"
                 ],
                 "secondary":[
-    
+                    "0x1c40228D278D6dB2ED47eDda56bD96847F4ab5a1"
                 ]
             }
         }

@@ -94,7 +94,7 @@
         }, 
         {
             "name":"SOLV Convertible Voucher",
-            "address":"0x4c44B167fFF5e95f6Bf2c46C54B9C33F9EdEf43E",
+            "address":"0xB7fE0fdeb025040612778AD6dC211dc03b618D6d",
             "symbol":"cvSOLV",
             "tags":[
                 "convertible"
@@ -105,7 +105,7 @@
             "extensions":{
                 "voucher":{
                     "type":"Convertible",
-                    "vestingPool":"0x9D2343Accf57F384183AB349ADd34F727a0ea46A",
+                    "vestingPool":"0x3E201F1f405a34DD3ad02f617E91969152C989F7",
                     "underlyingToken":{
                         "name":"Solv",
                         "address":"0x25cc5A7237105BD227C6A849B06e77903fE7D2A8",
@@ -117,7 +117,7 @@
                 },
                 "markets":{
                     "primary":[
-                        "0xE1072Fd98EF69aD6Dd2818C272c6cd5CFe927AC4"
+                        "0x8822fdC0e0285e49F414fFacE26955961EBF6029"
                     ],
                     "secondary":[
         
