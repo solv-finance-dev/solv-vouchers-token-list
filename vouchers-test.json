@@ -611,6 +611,39 @@
                     ]
                 }
             }
-        }                      
+        },
+        {
+            "name":"LOOT Vesting Voucher",
+            "address":"0xf57c78A1bC1FC1C2390C823B196b2b2F5B77fd77",
+            "symbol":"vvLOOT",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":4,
+            "logoURI":"https://token-list.solv.finance/token-logo/LOOT.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0xaEF230b8EC186dC7cEfb8AE99e066B598ea20710",
+                    "underlyingToken":{
+                        "name":"LOOT Token",
+                        "address":"0x721A1B990699eE9D90b6327FaaD0A3E840aE8335",
+                        "decimals":18,
+                        "symbol":"LOOT",
+                        "chainId":4,
+                        "logoURI":"https://token-list.solv.finance/token-logo/LOOT.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0xEb3cf4Cbdd13896ED6D022E3363939c2a69BE215"
+                    ]
+                }
+            }
+        }                              
     ]
 }
