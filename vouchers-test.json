@@ -94,7 +94,7 @@
         }, 
         {
             "name":"SOLV Convertible Voucher",
-            "address":"0xB7fE0fdeb025040612778AD6dC211dc03b618D6d",
+            "address":"0x70f8EdD3887494C887AAaafCB32e76Ea4dbC3528",
             "symbol":"cvSOLV",
             "tags":[
                 "convertible"
@@ -105,7 +105,7 @@
             "extensions":{
                 "voucher":{
                     "type":"Convertible",
-                    "vestingPool":"0x3E201F1f405a34DD3ad02f617E91969152C989F7",
+                    "vestingPool":"0x06e17a8ef43751E98352222FA877425Cef6e41FF",
                     "underlyingToken":{
                         "name":"Solv",
                         "address":"0x25cc5A7237105BD227C6A849B06e77903fE7D2A8",
@@ -117,7 +117,7 @@
                 },
                 "markets":{
                     "primary":[
-                        "0x8822fdC0e0285e49F414fFacE26955961EBF6029"
+                        "0x458843547A91c1359DBADE1DdE4EC62c8A73a0fB"
                     ],
                     "secondary":[
         
@@ -581,7 +581,7 @@
         },
         {
             "name":"USF Convertible Voucher",
-            "address":"0xf6Ae3f2f43d7BD78650188dC6Fc1710380e92c27",
+            "address":"0xBfdA31Ca8aFAeF1C5038d47d0188607c685EB927",
             "symbol":"cvUSF",
             "tags":[
                 "convertible"
@@ -592,7 +592,7 @@
             "extensions":{
                 "voucher":{
                     "type":"Convertible",
-                    "vestingPool":"0x177542267BF8A954c936aC2EF5efe7af8dfC77BD",
+                    "vestingPool":"0xE7B6268F7E38403A013C823C05c2f2F167891F42",
                     "underlyingToken":{
                         "name":"Unslashed Finance Governance Token",
                         "address":"0x4271F6b03A0Dec5CA77b69E1C6119bD71f4820b3",
@@ -604,7 +604,7 @@
                 },
                 "markets":{
                     "primary":[
-                        "0x8822fdC0e0285e49F414fFacE26955961EBF6029"
+                        "0x458843547A91c1359DBADE1DdE4EC62c8A73a0fB"
                     ],
                     "secondary":[
         
