@@ -1229,6 +1229,39 @@
                     ]
                 }
             }
-        }                                        
+        },
+        {
+            "name":"USF Convertible Voucher",
+            "address":"0xbF50337eD0Ff20Fa4d5702BF2DA187E2C217D034",
+            "symbol":"cvUSF",
+            "tags":[
+                "convertible"
+            ],
+            "decimals":0,
+            "chainId":1,
+            "logoURI":"https://token-list.solv.finance/token-logo/USF.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Convertible",
+                    "vestingPool":"0xa2c9D8C01F42Db434B9Ba91678f6CB6999E5bF57",
+                    "underlyingToken":{
+                        "name":"Unslashed Finance Governance Token",
+                        "address":"0xE0e05c43c097B0982Db6c9d626c4eb9e95C3b9ce",
+                        "decimals":18,
+                        "symbol":"USF",
+                        "chainId":1,
+                        "logoURI":"https://token-list.solv.finance/token-logo/USF.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+                        "0x83208b368c34dAc1A0F8B616f278ed42f1FFB8cd"
+                    ],
+                    "secondary":[
+        
+                    ]
+                }
+            }
+        }                                                
     ]
 }
