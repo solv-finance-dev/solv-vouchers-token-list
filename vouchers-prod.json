@@ -1262,6 +1262,39 @@
                     ]
                 }
             }
-        }                                                
+        },
+        {
+            "name":"DOP Vesting Voucher",
+            "address":"0xEe3a5800392614f18CE3Ca82a3acE815c01F2ab4",
+            "symbol":"vvDOP",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":1,
+            "logoURI":"https://token-list.solv.finance/token-logo/DOP.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x8b314D8529fF1aE5ae0C6d596509f7cdddDB55dF",
+                    "underlyingToken":{
+                        "name":"Drops Ownership Power",
+                        "address":"0x6bB61215298F296C55b19Ad842D3Df69021DA2ef",
+                        "decimals":18,
+                        "symbol":"DOP",
+                        "chainId":1,
+                        "logoURI":"https://token-list.solv.finance/token-logo/DOP.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
+                }
+            }
+        }                                                        
     ]
 }
