@@ -574,5 +574,38 @@
                 ]
             }
         }
+    },
+    {
+        "name":"PERP Convertible Voucher",
+        "address":"0xB0a7684D39DEAd56095793c87C82789B498137DB",
+        "symbol":"cvPERP",
+        "tags":[
+            "convertible"
+        ],
+        "decimals":0,
+        "chainId":4,
+        "logoURI":"https://token-list.solv.finance/token-logo/PERP.png",
+        "extensions":{
+            "voucher":{
+                "type":"Convertible",
+                "vestingPool":"0xfdCd0CF27b7bFD209dB5b71717df31f9f64328A3",
+                "underlyingToken":{
+                    "name":"Perpetual",
+                    "address":"0xA75b7548f9A923441c8bed07A0207FA55FCf951B",
+                    "decimals":18,
+                    "symbol":"PERP",
+                    "chainId":4,
+                    "logoURI":"https://token-list.solv.finance/token-logo/PERP.png"
+                }
+            },
+            "markets":{
+                "primary":[
+                    "0x20E067786Cb755fC75A1C5308FCE469fc9B92FAE"
+                ],
+                "secondary":[
+    
+                ]
+            }
+        }
     }]
 }
