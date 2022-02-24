@@ -1328,6 +1328,72 @@
                     ]
                 }
             }
-        }                                                                
+        },
+        {
+            "name":"OLE Vesting Voucher",
+            "address":"0x0a0C7C7d8faA70e6D88aab1663b40DA88115c228",
+            "symbol":"vvOLE",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":56,
+            "logoURI":"https://token-list.solv.finance/token-logo/OLE.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x00C3923802e147F12204C7Be2f5e536E8399d97C",
+                    "underlyingToken":{
+                        "name":"OpenLeverage",
+                        "address":"0xa865197A84E780957422237B5D152772654341F3",
+                        "decimals":18,
+                        "symbol":"OLE",
+                        "chainId":56,
+                        "logoURI":"https://token-list.solv.finance/token-logo/OLE.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        },
+        {
+            "name":"QUOTH Vesting Voucher",
+            "address":"0x7Bb510d230f4b2171F7cC203DB06b254b3868002",
+            "symbol":"vvQUOTH",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":56,
+            "logoURI":"https://token-list.solv.finance/token-logo/QUOTH.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x51c3dcF20623cD8221690B36D63e9F1FEFE7Fa7e",
+                    "underlyingToken":{
+                        "name":"Quoth Token",
+                        "address":"0xb025BC1675F6BE04eC528574712f268D99dB494d",
+                        "decimals":18,
+                        "symbol":"QUOTH",
+                        "chainId":56,
+                        "logoURI":"https://token-list.solv.finance/token-logo/QUOTH.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+                        "0xBA21023Cd7d193f2B980Fac8018f228c1F340B21"
+                    ],
+                    "secondary":[
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        }                                                                                
     ]
 }
