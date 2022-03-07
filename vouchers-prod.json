@@ -1394,6 +1394,39 @@
                     ]
                 }
             }
-        }                                                                                
+        },
+        {
+            "name":"MTS Vesting Voucher",
+            "address":"0x9F57d83781ed349f9d79da0d2c0275D1800Aac98",
+            "symbol":"vvMTS",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":56,
+            "logoURI":"https://token-list.solv.finance/token-logo/MTS.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0xb0aE7d22f6fA43A42559ea9A2bFddF36cc5F5A06",
+                    "underlyingToken":{
+                        "name":"Metastrike",
+                        "address":"0x496cC0b4ee12Aa2AC4c42E93067484e7Ff50294b",
+                        "decimals":18,
+                        "symbol":"MTS",
+                        "chainId":56,
+                        "logoURI":"https://token-list.solv.finance/token-logo/MTS.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        }                                                                                        
     ]
 }
