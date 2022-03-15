@@ -1427,6 +1427,105 @@
                     ]
                 }
             }
-        }                                                                                        
+        },
+        {
+            "name":"DUET Vesting Voucher",
+            "address":"0x8C014E083F5cec5cC029ED217fa80ED65272FDB2",
+            "symbol":"vvDUET",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":56,
+            "logoURI":"https://token-list.solv.finance/token-logo/DUET.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0xa81ab739dBF5dedc3969fdc006CCAD298A7e6B7d",
+                    "underlyingToken":{
+                        "name":"Duet Governance Token",
+                        "address":"0x95EE03e1e2C5c4877f9A298F1C0D6c98698FAB7B",
+                        "decimals":18,
+                        "symbol":"DUET",
+                        "chainId":56,
+                        "logoURI":"https://token-list.solv.finance/token-logo/DUET.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        },
+        {
+            "name":"KYOKO Vesting Voucher",
+            "address":"0x06C8260935f4C267156E6df93dC98f998cc99261",
+            "symbol":"vvKYOKO",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":1,
+            "logoURI":"https://token-list.solv.finance/token-logo/KYOKO.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0xe65Beb296d2CC71986EaA6E4c353dd8614fe0515",
+                    "underlyingToken":{
+                        "name":"Kyoko",
+                        "address":"0x14a32f050FACF226Ec60882398A9BF36d91DBaC2",
+                        "decimals":18,
+                        "symbol":"KYOKO",
+                        "chainId":1,
+                        "logoURI":"https://token-list.solv.finance/token-logo/KYOKO.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
+                }
+            }
+        },        
+        {
+            "name":"YIN Vesting Voucher",
+            "address":"0xf6Ee76141E5964F5fF2831C3CB39A90f1541794A",
+            "symbol":"vvYIN",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":56,
+            "logoURI":"https://token-list.solv.finance/token-logo/YIN.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x63eDd2bdf6120479e868029f9fD038a8D964bd0F",
+                    "underlyingToken":{
+                        "name":"YIN Finance",
+                        "address":"0x794Baab6b878467F93EF17e2f2851ce04E3E34C8",
+                        "decimals":18,
+                        "symbol":"YIN",
+                        "chainId":56,
+                        "logoURI":"https://token-list.solv.finance/token-logo/YIN.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+                        "0xBA21023Cd7d193f2B980Fac8018f228c1F340B21"
+                    ],
+                    "secondary":[
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        }                                                                                                      
     ]
 }
