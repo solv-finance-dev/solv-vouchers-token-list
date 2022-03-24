@@ -1258,7 +1258,7 @@
                         "0x83208b368c34dAc1A0F8B616f278ed42f1FFB8cd"
                     ],
                     "secondary":[
-        
+                        "0x962e18f89d27Cfc84c8fFA2ec7C90b3D933AD685"
                     ]
                 }
             }
@@ -1324,7 +1324,7 @@
                         "0x83208b368c34dAc1A0F8B616f278ed42f1FFB8cd"
                     ],
                     "secondary":[
-        
+                        "0x962e18f89d27Cfc84c8fFA2ec7C90b3D933AD685"
                     ]
                 }
             }
@@ -1526,6 +1526,105 @@
                     ]
                 }
             }
-        }                                                                                                      
+        },
+        {
+            "name":"XY Vesting Voucher",
+            "address":"0xEbCBE62Ff30499451dbd664538AcA75CD6076B3d",
+            "symbol":"vvXY",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":137,
+            "logoURI":"https://token-list.solv.finance/token-logo/XY.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x5fCd90726880A2C747248E376A6BeA4c7657C655",
+                    "underlyingToken":{
+                        "name":"XY Token",
+                        "address":"0x55555555A687343C6Ce28C8E1F6641dc71659fAd",
+                        "decimals":18,
+                        "symbol":"XY",
+                        "chainId":137,
+                        "logoURI":"https://token-list.solv.finance/token-logo/XY.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        },
+        {
+            "name":"XY Vesting Voucher",
+            "address":"0x4c5033ba078C79Dc1D2775fb481dEA53e145f61A",
+            "symbol":"vvXY",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":1,
+            "logoURI":"https://token-list.solv.finance/token-logo/XY.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x2F030b1CEa9746Fbba4fA43FcdCdbdde1077cCBc",
+                    "underlyingToken":{
+                        "name":"XY Token",
+                        "address":"0x77777777772cf0455fB38eE0e75f38034dFa50DE",
+                        "decimals":18,
+                        "symbol":"XY",
+                        "chainId":1,
+                        "logoURI":"https://token-list.solv.finance/token-logo/XY.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
+                }
+            }
+        },
+        {
+            "name":"PIC Vesting Voucher",
+            "address":"0x1FcD1391619da26a10952f3bB12687a8AA198725",
+            "symbol":"vvPIC",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":56,
+            "logoURI":"https://token-list.solv.finance/token-logo/PIC.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x0308796fA5BdA7a991520a2fbD1eA8C0c81F66d1",
+                    "underlyingToken":{
+                        "name":"PIC",
+                        "address":"0x1ACDFc5889ff360ac95FC9b4db049885AF8f5296",
+                        "decimals":18,
+                        "symbol":"PIC",
+                        "chainId":56,
+                        "logoURI":"https://token-list.solv.finance/token-logo/PIC.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        }                                                                                                                     
     ]
 }
