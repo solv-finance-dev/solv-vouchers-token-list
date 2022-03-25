@@ -607,5 +607,38 @@
                 ]
             }
         }
+    },
+    {
+        "name":"SOLV Vesting Voucher",
+        "address":"0x912E62fa0513e33350Ec408820F0604Daa7496a9",
+        "symbol":"icSOLV",
+        "tags":[
+            "vesting"
+        ],
+        "decimals":0,
+        "chainId":421611,
+        "logoURI":"https://token-list.solv.finance/token-logo/SOLV.png",
+        "extensions":{
+            "voucher":{
+                "type":"Vesting",
+                "vestingPool":"0xee68F84237B3a2e0C9fb8fBb3b69451406CdcbAa",
+                "underlyingToken":{
+                    "name":"Solv",
+                    "address":"0x5817Df96AEd5741591278e37df1225FE2eacd357",
+                    "decimals":18,
+                    "symbol":"SOLV",
+                    "chainId":421611,
+                    "logoURI":"https://token-list.solv.finance/token-logo/SOLV.png"
+                }
+            },
+            "markets":{
+                "primary":[
+    
+                ],
+                "secondary":[
+                    "0x7e22ce72b54206162E17723A8212417082c09EBb"
+                ]
+            }
+        }
     }]
 }
