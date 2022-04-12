@@ -1625,6 +1625,39 @@
                     ]
                 }
             }
-        }                                                                                                                     
+        },
+        {
+            "name":"STRP Bond Voucher",
+            "address":"0x32126Ae067ec31974180f79B6313AE986a375faa",
+            "symbol":"bvSTRP",
+            "tags":[
+                "bond"
+            ],
+            "decimals":0,
+            "chainId":42161,
+            "logoURI":"https://token-list.solv.finance/token-logo/STRP.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Bond",
+                    "vestingPool":"0xB037BF91B4B85bBe23d59fd182C20F2bdE7e7eC9",
+                    "underlyingToken":{
+                        "name":"Strips Token",
+                        "address":"0x326c33FD1113c1F29B35B4407F3d6312a8518431",
+                        "decimals":18,
+                        "symbol":"STRP",
+                        "chainId":42161,
+                        "logoURI":"https://token-list.solv.finance/token-logo/STRP.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+                        "0x67D48Ce0E776147B0d996e1FaCC0FbAA91b1CBC4"
+                    ],
+                    "secondary":[
+        
+                    ]
+                }
+            }
+        }                                                                                                                             
     ]
 }
