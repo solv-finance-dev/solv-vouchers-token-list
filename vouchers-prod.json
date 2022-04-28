@@ -1658,6 +1658,39 @@
                     ]
                 }
             }
-        }                                                                                                                             
+        },
+        {
+            "name":"WOO Vesting Voucher",
+            "address":"0x2a0464c844Ee22f2d95fa64794210471652d6261",
+            "symbol":"vvWOO",
+            "tags":[
+                "vesting"
+            ],
+            "decimals":0,
+            "chainId":56,
+            "logoURI":"https://token-list.solv.finance/token-logo/WOO.png",
+            "extensions":{
+                "voucher":{
+                    "type":"Vesting",
+                    "vestingPool":"0x0fa50b20821848a49bEfB86317221986Ad4c5b72",
+                    "underlyingToken":{
+                        "name":"Wootrade Network",
+                        "address":"0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+                        "decimals":18,
+                        "symbol":"WOO",
+                        "chainId":56,
+                        "logoURI":"https://token-list.solv.finance/token-logo/WOO.png"
+                    }
+                },
+                "markets":{
+                    "primary":[
+        
+                    ],
+                    "secondary":[
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        }                                                                                                                                     
     ]
 }
