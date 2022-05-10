@@ -1,41 +1,48 @@
 {
-	"name": "SOLV Vouchers Token List",
-	"timestamp": "2021-11-26T06:53:12.720046318Z",
-	"version": {
-		"major": 0,
-		"minor": 0,
-		"patch": 1
-	},
-	"tags": {
-		"common": {
-			"name": "Common Tokens",
-			"description": "Common erc20 tokens"
-		},
-		"nft": {
-			"name": "NFT Tokens",
-			"description": "ERC721 Non Fungible Token Standard"
-		},
-		"voucher": {
-			"name": "SOLV Voucher Tokens",
-			"description": "Based on ERC3525"
-		},
+    "name": "SOLV Vouchers Token List",
+    "timestamp": "2021-11-26T06:53:12.720046318Z",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "patch": 1
+    },
+    "tags": {
+        "common": {
+            "name": "Common Tokens",
+            "description": "Common erc20 tokens"
+        },
+        "nft": {
+            "name": "NFT Tokens",
+            "description": "ERC721 Non Fungible Token Standard"
+        },
+        "voucher": {
+            "name": "SOLV Voucher Tokens",
+            "description": "Based on ERC3525"
+        },
         "vesting": {
-			"name": "One of SOLV Voucher type",
-			"description": "Based on ERC3525"
+            "name": "One of SOLV Voucher type",
+            "description": "Based on ERC3525"
         },
         "flexible": {
-			"name": "One of SOLV Voucher type",
-			"description": "Based on ERC3525"
-        }        
-	},
-	"logoURI": "",
-	"keywords": ["voucher","nft","vesting","flexible"],
-	"tokens": [
+            "name": "One of SOLV Voucher type",
+            "description": "Based on ERC3525"
+        }
+    },
+    "logoURI": "",
+    "keywords": [
+        "voucher",
+        "nft",
+        "vesting",
+        "flexible"
+    ],
+    "tokens": [
         {
             "name": "SOLV Vesting Voucher",
             "address": "0xfdcdE28359Db316957534e825327d99D9f4a5d17",
             "symbol": "icSOLV",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
@@ -53,19 +60,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                
+                }
             }
-        }, 
+        },
         {
             "name": "SOLV Vesting Voucher",
             "address": "0x6Ce48759B6bEB972a13A7c1F7255E4c7477eAa5D",
             "symbol": "icSOLV",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
@@ -83,19 +91,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
-        },                                                         
+        },
         {
             "name": "SOLV Flexible Voucher",
             "address": "0xfEd93e410a6A45BC045bc91DEAaE1fD642e4aF7A",
             "symbol": "fvSOLV",
-            "tags": ["flexible"],
+            "tags": [
+                "flexible"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
@@ -119,14 +128,16 @@
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
         },
         {
             "name": "PRQ Vesting Voucher",
             "address": "0x705d6b0c912a33A8643b5F7E42B5c7CA386A3b32",
             "symbol": "icPRQ",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/PRQ.png",
@@ -144,19 +155,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                
+                }
             }
-        },   
+        },
         {
             "name": "DODO Vesting Voucher",
             "address": "0xaDB9AB302ECd551264a718d43aE6B3C255a8afa5",
             "symbol": "icDODO",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/DODO.png",
@@ -174,19 +186,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        },          
+        },
         {
             "name": "SFI Vesting Voucher",
             "address": "0x884F3b6d68DcC64bad97c84b5e32b80cE0EBBe7d",
             "symbol": "icSFI",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/SFI.png",
@@ -204,19 +217,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        },  
+        },
         {
             "name": "Auction Vesting Voucher",
             "address": "0xE995Aa82Ed3E0a3E86097D3d2914aA6AA20777Ab",
             "symbol": "icAuction",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/AUCTION.png",
@@ -234,19 +248,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        },  
+        },
         {
             "name": "PROM Vesting Voucher",
             "address": "0xb62d5ceb3668Fd7919e3ad860779B6c4AefFbE70",
             "symbol": "avPROM",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/PROM.png",
@@ -264,19 +279,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        }, 
+        },
         {
             "name": "CLS Vesting Voucher",
             "address": "0xF97c35C542e0AD32E9B03967b41999A43ACbDBe3",
             "symbol": "avCLS",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/CLS.png",
@@ -294,19 +310,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        },  
+        },
         {
             "name": "SLD Vesting Voucher",
             "address": "0x5c446Fb81924A9d6d4CA740145d7669b824af663",
             "symbol": "avSLD",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/SLD.png",
@@ -324,19 +341,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        },         
+        },
         {
             "name": "BEL Vesting Voucher",
             "address": "0xF827E010D19d4dDe428D7DA00A2a0DfbeDE57921",
             "symbol": "avBEL",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/BEL.png",
@@ -354,19 +372,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        }, 
+        },
         {
             "name": "vHIGH Vesting Voucher",
             "address": "0xcEfF847de8289a5D0d28D91c3CeB7Fa2e17EB27a",
             "symbol": "avvHIGH",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/VHIGH.png",
@@ -384,19 +403,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        }, 
+        },
         {
             "name": "STRP Vesting Voucher",
             "address": "0x85685Fe7f129De3346Ac8f103aAb521d1E59CDB4",
             "symbol": "avSTRP",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/STRP.png",
@@ -414,19 +434,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
         },
         {
             "name": "YIN Vesting Voucher",
             "address": "0x0d5a6FeFa731CB5842DF77f24a186e7EeD20B801",
             "symbol": "vvYIN",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/YIN.png",
@@ -444,20 +465,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        }, 
-        
+        },
         {
             "name": "DODO Vesting Voucher",
             "address": "0xA88999C36fe36f6Df8D28b9cEAd38E1082D2F096",
             "symbol": "icDODO",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/DODO.png",
@@ -475,19 +496,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
-        },  
+        },
         {
             "name": "PROM Vesting Voucher",
             "address": "0x4A6c7ba0Cda9Bdc51Bd088Be20664926225BeEbF",
             "symbol": "avPROM",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/PROM.png",
@@ -505,19 +527,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
         },
         {
             "name": "BINO Vesting Voucher",
             "address": "0xe5ffDE144592121195d43fdfb3621fc7530c0040",
             "symbol": "avBINO",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/BINO.png",
@@ -535,19 +558,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
-        },                        
+        },
         {
             "name": "SLD Vesting Voucher",
             "address": "0x81C0D9daaC377ACA9C51AC0FDdC2d01Cb004a8FE",
             "symbol": "avSLD",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/SLD.png",
@@ -565,19 +589,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
-        }, 
+        },
         {
             "name": "IDIA Vesting Voucher",
             "address": "0x0c491ac26d2cDDa63667DF65b43b967B9293161c",
             "symbol": "avIDIA",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/IDIA.png",
@@ -595,19 +620,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
-        },          
+        },
         {
             "name": "IF Vesting Voucher",
             "address": "0x3ebceb9989630b3f4E4Eb0C7263A07E8c515bE23",
             "symbol": "avIF",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/IF.png",
@@ -625,19 +651,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
-        }, 
+        },
         {
             "name": "VERA Vesting Voucher",
             "address": "0x928B35660F8388042d871E82EB40234901461354",
             "symbol": "avVERA",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/VERA.png",
@@ -655,19 +682,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
-        }, 
+        },
         {
             "name": "CART Vesting Voucher",
             "address": "0xe973CdBe071D30977D42Aefc6720A5D65E406fB5",
             "symbol": "avCART",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/CART.png",
@@ -685,19 +713,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                
+                }
             }
-        },  
+        },
         {
             "name": "OSWAP Vesting Voucher",
             "address": "0x2883227b469612E1c94CB9d916556a19dD5FFE5C",
             "symbol": "avOSWAP",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/OSWAP.png",
@@ -715,19 +744,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                
+                }
             }
         },
         {
             "name": "WBNB Vesting Voucher",
             "address": "0xb142407b34d37E4c3B67422843feAdD07711F5AB",
             "symbol": "vvWBNB",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/WBNB.png",
@@ -745,18 +775,18 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
-                    "secondary": [
-                    ]
-                }                
+                    "primary": [],
+                    "secondary": []
+                }
             }
-        }, 
+        },
         {
             "name": "MATE Vesting Voucher",
             "address": "0x594006748ae4435567Ae2e30f2A3A960F4a9559B",
             "symbol": "vvMATE",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/MATE.png",
@@ -774,18 +804,18 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
-                    "secondary": [
-                    ]
-                }                
+                    "primary": [],
+                    "secondary": []
+                }
             }
-        },               
+        },
         {
             "name": "TIDAL Vesting Voucher",
             "address": "0xaAFddD9a468D61BdE503a9f96A10F50b2Bdf3C56",
             "symbol": "avTIDAL",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 137,
             "logoURI": "https://token-list.solv.finance/token-logo/TIDAL.png",
@@ -803,19 +833,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                
+                }
             }
         },
         {
             "name": "iZi Vesting Voucher",
             "address": "0x705d6b0c912a33A8643b5F7E42B5c7CA386A3b32",
             "symbol": "vviZi",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 137,
             "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
@@ -833,19 +864,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                
+                }
             }
-        }, 
+        },
         {
             "name": "iZi Vesting Voucher",
             "address": "0x6f0f7870aA4079CcB4c3Ce614a8A0517A1D60097",
             "symbol": "vviZi",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
@@ -863,19 +895,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                 
+                }
             }
-        }, 
+        },
         {
             "name": "DEVT Vesting Voucher",
             "address": "0xe98Ec63665488f7910aDAcF357683dF9ae1be6c2",
             "symbol": "vvDEVT",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/DEVT.png",
@@ -893,19 +926,20 @@
                     }
                 },
                 "markets": {
-                    "primary": [
-                    ],
+                    "primary": [],
                     "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
-                }                 
+                }
             }
-        },          
+        },
         {
             "name": "iZi Flexible Voucher",
             "address": "0xa4ec0d960A7012Ce3A5477E7b39594a5b003acEd",
             "symbol": "fviZi",
-            "tags": ["flexible"],
+            "tags": [
+                "flexible"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
@@ -929,14 +963,16 @@
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                
+                }
             }
-        },  
+        },
         {
             "name": "iZi Flexible Voucher",
             "address": "0x3Ed566fbAdA3Daf43C0b4F624102c7E10A925B9E",
             "symbol": "fviZi",
-            "tags": ["flexible"],
+            "tags": [
+                "flexible"
+            ],
             "decimals": 0,
             "chainId": 137,
             "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
@@ -960,70 +996,66 @@
                     "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
-                }                  
+                }
             }
         },
         {
-            "name":"CLH Vesting Voucher",
-            "address":"0x74686e352C0F6AaD7A44e89cfeb5986fBD0F2133",
-            "symbol":"vvCLH",
-            "tags":[
+            "name": "CLH Vesting Voucher",
+            "address": "0x74686e352C0F6AaD7A44e89cfeb5986fBD0F2133",
+            "symbol": "vvCLH",
+            "tags": [
                 "vesting"
             ],
-            "decimals":0,
-            "chainId":1,
-            "logoURI":"https://token-list.solv.finance/token-logo/CLH.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x188A605073cf3b4c9616a5Aacf35e0aB4E3dC817",
-                    "underlyingToken":{
-                        "name":"CLearingHouse Token",
-                        "address":"0xD7D8f3b8Bc8bC48d3AcC37879EABA7b85889FA52",
-                        "decimals":18,
-                        "symbol":"CLH",
-                        "chainId":1,
-                        "logoURI":"https://token-list.solv.finance/token-logo/CLH.png"
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/CLH.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x188A605073cf3b4c9616a5Aacf35e0aB4E3dC817",
+                    "underlyingToken": {
+                        "name": "CLearingHouse Token",
+                        "address": "0xD7D8f3b8Bc8bC48d3AcC37879EABA7b85889FA52",
+                        "decimals": 18,
+                        "symbol": "CLH",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/CLH.png"
                     }
                 },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
+                "markets": {
+                    "primary": [],
+                    "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
                 }
             }
         },
         {
-            "name":"ARDN Vesting Voucher",
-            "address":"0x8A868E932108C43daf591cC65FCc0008893369c9",
-            "symbol":"vvARDN",
-            "tags":[
+            "name": "ARDN Vesting Voucher",
+            "address": "0x8A868E932108C43daf591cC65FCc0008893369c9",
+            "symbol": "vvARDN",
+            "tags": [
                 "vesting"
             ],
-            "decimals":0,
-            "chainId":56,
-            "logoURI":"https://token-list.solv.finance/token-logo/ARDN.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0xB0Be3E5abdba98364649b23284C2e67785D00F47",
-                    "underlyingToken":{
-                        "name":"Ariadne",
-                        "address":"0xa0A9961b7477D1a530f06a1ee805d5E532e73d97",
-                        "decimals":18,
-                        "symbol":"ARDN",
-                        "chainId":56,
-                        "logoURI":"https://token-list.solv.finance/token-logo/ARDN.png"
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/ARDN.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xB0Be3E5abdba98364649b23284C2e67785D00F47",
+                    "underlyingToken": {
+                        "name": "Ariadne",
+                        "address": "0xa0A9961b7477D1a530f06a1ee805d5E532e73d97",
+                        "decimals": 18,
+                        "symbol": "ARDN",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/ARDN.png"
                     }
                 },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
+                "markets": {
+                    "primary": [],
+                    "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
                 }
@@ -1033,7 +1065,9 @@
             "name": "WBTC Vesting Voucher",
             "address": "0x30FdA944075c1b7E92498CE6358BCEF1284FEBFA",
             "symbol": "vvWBTC",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/WBTC.png",
@@ -1052,7 +1086,9 @@
                 },
                 "markets": {
                     "primary": [],
-                    "secondary": ["0xD91A208995bfBde9D133c39417FBD352e595650b"]
+                    "secondary": [
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
                 }
             }
         },
@@ -1060,7 +1096,9 @@
             "name": "WETH Vesting Voucher",
             "address": "0xf6Ee76141E5964F5fF2831C3CB39A90f1541794A",
             "symbol": "vvWETH",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/WETH.png",
@@ -1079,7 +1117,9 @@
                 },
                 "markets": {
                     "primary": [],
-                    "secondary": ["0xD91A208995bfBde9D133c39417FBD352e595650b"]
+                    "secondary": [
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
                 }
             }
         },
@@ -1087,7 +1127,9 @@
             "name": "HIGH Vesting Voucher",
             "address": "0x0308796fA5BdA7a991520a2fbD1eA8C0c81F66d1",
             "symbol": "vvHIGH",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 1,
             "logoURI": "https://token-list.solv.finance/token-logo/HIGH.png",
@@ -1106,7 +1148,9 @@
                 },
                 "markets": {
                     "primary": [],
-                    "secondary": ["0xD91A208995bfBde9D133c39417FBD352e595650b"]
+                    "secondary": [
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
                 }
             }
         },
@@ -1114,7 +1158,9 @@
             "name": "HIGH Vesting Voucher",
             "address": "0x670Bf192f753B28E0ff4EfA943dcbACd8f80D85C",
             "symbol": "vvHIGH",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/HIGH.png",
@@ -1133,7 +1179,9 @@
                 },
                 "markets": {
                     "primary": [],
-                    "secondary": ["0x758ae0c48ff013D18b3D63Ca79408e70A977d496"]
+                    "secondary": [
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
                 }
             }
         },
@@ -1141,7 +1189,9 @@
             "name": "SIN Vesting Voucher",
             "address": "0x841d46feAae7e747AD425E6378b4f3b88f8A6855",
             "symbol": "vvSIN",
-            "tags": ["vesting"],
+            "tags": [
+                "vesting"
+            ],
             "decimals": 0,
             "chainId": 56,
             "logoURI": "https://token-list.solv.finance/token-logo/SIN.png",
@@ -1160,537 +1210,579 @@
                 },
                 "markets": {
                     "primary": [],
-                    "secondary": ["0x758ae0c48ff013D18b3D63Ca79408e70A977d496"]
-                }
-            }
-        },
-        {
-            "name":"PDT Vesting Voucher",
-            "address":"0x522f8fe415e08b600B8BD6c1db74a1B696845d0d",
-            "symbol":"vvPDT",
-            "tags":[
-                "vesting"
-            ],
-            "decimals":0,
-            "chainId":1,
-            "logoURI":"https://token-list.solv.finance/token-logo/PDT.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0xdD4cd02b42c1B67AFD49f9B866Fa91A88C59Cb14",
-                    "underlyingToken":{
-                        "name":"Paragons DAO Token",
-                        "address":"0x375aBB85C329753b1Ba849a601438AE77eEc9893",
-                        "decimals":18,
-                        "symbol":"PDT",
-                        "chainId":1,
-                        "logoURI":"https://token-list.solv.finance/token-logo/PDT.png"
-                    }
-                },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
-                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
-                    ]
-                }
-            }
-        },
-        {
-            "name":"LOOT Vesting Voucher",
-            "address":"0xA6190d601D841A520232e5655487eDE8f4845F5e",
-            "symbol":"vvLOOT",
-            "tags":[
-                "vesting"
-            ],
-            "decimals":0,
-            "chainId":56,
-            "logoURI":"https://token-list.solv.finance/token-logo/LOOT.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x4aA6386aAa3E13a6F5f0df62936952D4984015d9",
-                    "underlyingToken":{
-                        "name":"LOOT Token",
-                        "address":"0x14A9A94E555FDd54C21d7f7E328e61D7eBEce54b",
-                        "decimals":18,
-                        "symbol":"LOOT",
-                        "chainId":56,
-                        "logoURI":"https://token-list.solv.finance/token-logo/LOOT.png"
-                    }
-                },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
+                    "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
                 }
             }
         },
         {
-            "name":"USF Convertible Voucher",
-            "address":"0xbF50337eD0Ff20Fa4d5702BF2DA187E2C217D034",
-            "symbol":"cvUSF",
-            "tags":[
-                "convertible"
+            "name": "PDT Vesting Voucher",
+            "address": "0x522f8fe415e08b600B8BD6c1db74a1B696845d0d",
+            "symbol": "vvPDT",
+            "tags": [
+                "vesting"
             ],
-            "decimals":0,
-            "chainId":1,
-            "logoURI":"https://token-list.solv.finance/token-logo/USF.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Convertible",
-                    "vestingPool":"0xa2c9D8C01F42Db434B9Ba91678f6CB6999E5bF57",
-                    "underlyingToken":{
-                        "name":"Unslashed Finance Governance Token",
-                        "address":"0xE0e05c43c097B0982Db6c9d626c4eb9e95C3b9ce",
-                        "decimals":18,
-                        "symbol":"USF",
-                        "chainId":1,
-                        "logoURI":"https://token-list.solv.finance/token-logo/USF.png"
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/PDT.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xdD4cd02b42c1B67AFD49f9B866Fa91A88C59Cb14",
+                    "underlyingToken": {
+                        "name": "Paragons DAO Token",
+                        "address": "0x375aBB85C329753b1Ba849a601438AE77eEc9893",
+                        "decimals": 18,
+                        "symbol": "PDT",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/PDT.png"
                     }
                 },
-                "markets":{
-                    "primary":[
+                "markets": {
+                    "primary": [],
+                    "secondary": [
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "LOOT Vesting Voucher",
+            "address": "0xA6190d601D841A520232e5655487eDE8f4845F5e",
+            "symbol": "vvLOOT",
+            "tags": [
+                "vesting"
+            ],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/LOOT.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x4aA6386aAa3E13a6F5f0df62936952D4984015d9",
+                    "underlyingToken": {
+                        "name": "LOOT Token",
+                        "address": "0x14A9A94E555FDd54C21d7f7E328e61D7eBEce54b",
+                        "decimals": 18,
+                        "symbol": "LOOT",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/LOOT.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": [
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "USF Convertible Voucher",
+            "address": "0xbF50337eD0Ff20Fa4d5702BF2DA187E2C217D034",
+            "symbol": "cvUSF",
+            "tags": [
+                "convertible"
+            ],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/USF.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Convertible",
+                    "vestingPool": "0xa2c9D8C01F42Db434B9Ba91678f6CB6999E5bF57",
+                    "underlyingToken": {
+                        "name": "Unslashed Finance Governance Token",
+                        "address": "0xE0e05c43c097B0982Db6c9d626c4eb9e95C3b9ce",
+                        "decimals": 18,
+                        "symbol": "USF",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/USF.png"
+                    }
+                },
+                "markets": {
+                    "primary": [
                         "0x83208b368c34dAc1A0F8B616f278ed42f1FFB8cd"
                     ],
-                    "secondary":[
+                    "secondary": [
                         "0x962e18f89d27Cfc84c8fFA2ec7C90b3D933AD685"
                     ]
                 }
             }
         },
         {
-            "name":"DOP Vesting Voucher",
-            "address":"0xEe3a5800392614f18CE3Ca82a3acE815c01F2ab4",
-            "symbol":"vvDOP",
-            "tags":[
+            "name": "DOP Vesting Voucher",
+            "address": "0xEe3a5800392614f18CE3Ca82a3acE815c01F2ab4",
+            "symbol": "vvDOP",
+            "tags": [
                 "vesting"
             ],
-            "decimals":0,
-            "chainId":1,
-            "logoURI":"https://token-list.solv.finance/token-logo/DOP.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x8b314D8529fF1aE5ae0C6d596509f7cdddDB55dF",
-                    "underlyingToken":{
-                        "name":"Drops Ownership Power",
-                        "address":"0x6bB61215298F296C55b19Ad842D3Df69021DA2ef",
-                        "decimals":18,
-                        "symbol":"DOP",
-                        "chainId":1,
-                        "logoURI":"https://token-list.solv.finance/token-logo/DOP.png"
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/DOP.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x8b314D8529fF1aE5ae0C6d596509f7cdddDB55dF",
+                    "underlyingToken": {
+                        "name": "Drops Ownership Power",
+                        "address": "0x6bB61215298F296C55b19Ad842D3Df69021DA2ef",
+                        "decimals": 18,
+                        "symbol": "DOP",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/DOP.png"
                     }
                 },
-                "markets":{
-                    "primary":[
+                "markets": {
+                    "primary": [
                         "0x66e6A6d0220ebd2c1600ddfD82d0DaAd438Bb71b"
                     ],
-                    "secondary":[
+                    "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
                 }
             }
         },
         {
-            "name":"PERP Convertible Voucher",
-            "address":"0x2d53F42b2Edf8907BCaa4d3f28E6f76bd95334E3",
-            "symbol":"cvPERP",
-            "tags":[
+            "name": "PERP Convertible Voucher",
+            "address": "0x2d53F42b2Edf8907BCaa4d3f28E6f76bd95334E3",
+            "symbol": "cvPERP",
+            "tags": [
                 "convertible"
             ],
-            "decimals":0,
-            "chainId":1,
-            "logoURI":"https://token-list.solv.finance/token-logo/PERP.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Convertible",
-                    "vestingPool":"0xE8865b89576866Da3F9B7fc868e057fB37f9B5A5",
-                    "underlyingToken":{
-                        "name":"Perpetual",
-                        "address":"0xbC396689893D065F41bc2C6EcbeE5e0085233447",
-                        "decimals":18,
-                        "symbol":"PERP",
-                        "chainId":1,
-                        "logoURI":"https://token-list.solv.finance/token-logo/PERP.png"
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/PERP.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Convertible",
+                    "vestingPool": "0xE8865b89576866Da3F9B7fc868e057fB37f9B5A5",
+                    "underlyingToken": {
+                        "name": "Perpetual",
+                        "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+                        "decimals": 18,
+                        "symbol": "PERP",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/PERP.png"
                     }
                 },
-                "markets":{
-                    "primary":[
+                "markets": {
+                    "primary": [
                         "0x83208b368c34dAc1A0F8B616f278ed42f1FFB8cd"
                     ],
-                    "secondary":[
+                    "secondary": [
                         "0x962e18f89d27Cfc84c8fFA2ec7C90b3D933AD685"
                     ]
                 }
             }
         },
         {
-            "name":"OLE Vesting Voucher",
-            "address":"0x0a0C7C7d8faA70e6D88aab1663b40DA88115c228",
-            "symbol":"vvOLE",
-            "tags":[
+            "name": "OLE Vesting Voucher",
+            "address": "0x0a0C7C7d8faA70e6D88aab1663b40DA88115c228",
+            "symbol": "vvOLE",
+            "tags": [
                 "vesting"
             ],
-            "decimals":0,
-            "chainId":56,
-            "logoURI":"https://token-list.solv.finance/token-logo/OLE.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x00C3923802e147F12204C7Be2f5e536E8399d97C",
-                    "underlyingToken":{
-                        "name":"OpenLeverage",
-                        "address":"0xa865197A84E780957422237B5D152772654341F3",
-                        "decimals":18,
-                        "symbol":"OLE",
-                        "chainId":56,
-                        "logoURI":"https://token-list.solv.finance/token-logo/OLE.png"
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/OLE.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x00C3923802e147F12204C7Be2f5e536E8399d97C",
+                    "underlyingToken": {
+                        "name": "OpenLeverage",
+                        "address": "0xa865197A84E780957422237B5D152772654341F3",
+                        "decimals": 18,
+                        "symbol": "OLE",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/OLE.png"
                     }
                 },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
+                "markets": {
+                    "primary": [],
+                    "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
                 }
             }
         },
         {
-            "name":"QUOTH Vesting Voucher",
-            "address":"0x7Bb510d230f4b2171F7cC203DB06b254b3868002",
-            "symbol":"vvQUOTH",
-            "tags":[
+            "name": "QUOTH Vesting Voucher",
+            "address": "0x7Bb510d230f4b2171F7cC203DB06b254b3868002",
+            "symbol": "vvQUOTH",
+            "tags": [
                 "vesting"
             ],
-            "decimals":0,
-            "chainId":56,
-            "logoURI":"https://token-list.solv.finance/token-logo/QUOTH.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x51c3dcF20623cD8221690B36D63e9F1FEFE7Fa7e",
-                    "underlyingToken":{
-                        "name":"Quoth Token",
-                        "address":"0xb025BC1675F6BE04eC528574712f268D99dB494d",
-                        "decimals":18,
-                        "symbol":"QUOTH",
-                        "chainId":56,
-                        "logoURI":"https://token-list.solv.finance/token-logo/QUOTH.png"
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/QUOTH.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x51c3dcF20623cD8221690B36D63e9F1FEFE7Fa7e",
+                    "underlyingToken": {
+                        "name": "Quoth Token",
+                        "address": "0xb025BC1675F6BE04eC528574712f268D99dB494d",
+                        "decimals": 18,
+                        "symbol": "QUOTH",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/QUOTH.png"
                     }
                 },
-                "markets":{
-                    "primary":[
+                "markets": {
+                    "primary": [
                         "0xBA21023Cd7d193f2B980Fac8018f228c1F340B21"
                     ],
-                    "secondary":[
+                    "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
                 }
             }
         },
         {
-            "name":"MTS Vesting Voucher",
-            "address":"0x9F57d83781ed349f9d79da0d2c0275D1800Aac98",
-            "symbol":"vvMTS",
-            "tags":[
+            "name": "MTS Vesting Voucher",
+            "address": "0x9F57d83781ed349f9d79da0d2c0275D1800Aac98",
+            "symbol": "vvMTS",
+            "tags": [
                 "vesting"
             ],
-            "decimals":0,
-            "chainId":56,
-            "logoURI":"https://token-list.solv.finance/token-logo/MTS.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0xb0aE7d22f6fA43A42559ea9A2bFddF36cc5F5A06",
-                    "underlyingToken":{
-                        "name":"Metastrike",
-                        "address":"0x496cC0b4ee12Aa2AC4c42E93067484e7Ff50294b",
-                        "decimals":18,
-                        "symbol":"MTS",
-                        "chainId":56,
-                        "logoURI":"https://token-list.solv.finance/token-logo/MTS.png"
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/MTS.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xb0aE7d22f6fA43A42559ea9A2bFddF36cc5F5A06",
+                    "underlyingToken": {
+                        "name": "Metastrike",
+                        "address": "0x496cC0b4ee12Aa2AC4c42E93067484e7Ff50294b",
+                        "decimals": 18,
+                        "symbol": "MTS",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/MTS.png"
                     }
                 },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
+                "markets": {
+                    "primary": [],
+                    "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
                 }
             }
         },
         {
-            "name":"DUET Vesting Voucher",
-            "address":"0x8C014E083F5cec5cC029ED217fa80ED65272FDB2",
-            "symbol":"vvDUET",
-            "tags":[
+            "name": "DUET Vesting Voucher",
+            "address": "0x8C014E083F5cec5cC029ED217fa80ED65272FDB2",
+            "symbol": "vvDUET",
+            "tags": [
                 "vesting"
             ],
-            "decimals":0,
-            "chainId":56,
-            "logoURI":"https://token-list.solv.finance/token-logo/DUET.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0xa81ab739dBF5dedc3969fdc006CCAD298A7e6B7d",
-                    "underlyingToken":{
-                        "name":"Duet Governance Token",
-                        "address":"0x95EE03e1e2C5c4877f9A298F1C0D6c98698FAB7B",
-                        "decimals":18,
-                        "symbol":"DUET",
-                        "chainId":56,
-                        "logoURI":"https://token-list.solv.finance/token-logo/DUET.png"
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/DUET.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xa81ab739dBF5dedc3969fdc006CCAD298A7e6B7d",
+                    "underlyingToken": {
+                        "name": "Duet Governance Token",
+                        "address": "0x95EE03e1e2C5c4877f9A298F1C0D6c98698FAB7B",
+                        "decimals": 18,
+                        "symbol": "DUET",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/DUET.png"
                     }
                 },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
+                "markets": {
+                    "primary": [],
+                    "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
                 }
             }
         },
         {
-            "name":"KYOKO Vesting Voucher",
-            "address":"0x06C8260935f4C267156E6df93dC98f998cc99261",
-            "symbol":"vvKYOKO",
-            "tags":[
+            "name": "KYOKO Vesting Voucher",
+            "address": "0x06C8260935f4C267156E6df93dC98f998cc99261",
+            "symbol": "vvKYOKO",
+            "tags": [
                 "vesting"
             ],
-            "decimals":0,
-            "chainId":1,
-            "logoURI":"https://token-list.solv.finance/token-logo/KYOKO.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0xe65Beb296d2CC71986EaA6E4c353dd8614fe0515",
-                    "underlyingToken":{
-                        "name":"Kyoko",
-                        "address":"0x14a32f050FACF226Ec60882398A9BF36d91DBaC2",
-                        "decimals":18,
-                        "symbol":"KYOKO",
-                        "chainId":1,
-                        "logoURI":"https://token-list.solv.finance/token-logo/KYOKO.png"
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/KYOKO.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xe65Beb296d2CC71986EaA6E4c353dd8614fe0515",
+                    "underlyingToken": {
+                        "name": "Kyoko",
+                        "address": "0x14a32f050FACF226Ec60882398A9BF36d91DBaC2",
+                        "decimals": 18,
+                        "symbol": "KYOKO",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/KYOKO.png"
                     }
                 },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
-                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
-                    ]
-                }
-            }
-        },        
-        {
-            "name":"YIN Vesting Voucher",
-            "address":"0xf6Ee76141E5964F5fF2831C3CB39A90f1541794A",
-            "symbol":"vvYIN",
-            "tags":[
-                "vesting"
-            ],
-            "decimals":0,
-            "chainId":56,
-            "logoURI":"https://token-list.solv.finance/token-logo/YIN.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x63eDd2bdf6120479e868029f9fD038a8D964bd0F",
-                    "underlyingToken":{
-                        "name":"YIN Finance",
-                        "address":"0x794Baab6b878467F93EF17e2f2851ce04E3E34C8",
-                        "decimals":18,
-                        "symbol":"YIN",
-                        "chainId":56,
-                        "logoURI":"https://token-list.solv.finance/token-logo/YIN.png"
-                    }
-                },
-                "markets":{
-                    "primary":[
-                        "0xBA21023Cd7d193f2B980Fac8018f228c1F340B21"
-                    ],
-                    "secondary":[
-                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
-                    ]
-                }
-            }
-        },
-        {
-            "name":"XY Vesting Voucher",
-            "address":"0xEbCBE62Ff30499451dbd664538AcA75CD6076B3d",
-            "symbol":"vvXY",
-            "tags":[
-                "vesting"
-            ],
-            "decimals":0,
-            "chainId":137,
-            "logoURI":"https://token-list.solv.finance/token-logo/XY.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x5fCd90726880A2C747248E376A6BeA4c7657C655",
-                    "underlyingToken":{
-                        "name":"XY Token",
-                        "address":"0x55555555A687343C6Ce28C8E1F6641dc71659fAd",
-                        "decimals":18,
-                        "symbol":"XY",
-                        "chainId":137,
-                        "logoURI":"https://token-list.solv.finance/token-logo/XY.png"
-                    }
-                },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
-                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
-                    ]
-                }
-            }
-        },
-        {
-            "name":"XY Vesting Voucher",
-            "address":"0x4c5033ba078C79Dc1D2775fb481dEA53e145f61A",
-            "symbol":"vvXY",
-            "tags":[
-                "vesting"
-            ],
-            "decimals":0,
-            "chainId":1,
-            "logoURI":"https://token-list.solv.finance/token-logo/XY.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x2F030b1CEa9746Fbba4fA43FcdCdbdde1077cCBc",
-                    "underlyingToken":{
-                        "name":"XY Token",
-                        "address":"0x77777777772cf0455fB38eE0e75f38034dFa50DE",
-                        "decimals":18,
-                        "symbol":"XY",
-                        "chainId":1,
-                        "logoURI":"https://token-list.solv.finance/token-logo/XY.png"
-                    }
-                },
-                "markets":{
-                    "primary":[
-        
-                    ],
-                    "secondary":[
+                "markets": {
+                    "primary": [],
+                    "secondary": [
                         "0xD91A208995bfBde9D133c39417FBD352e595650b"
                     ]
                 }
             }
         },
         {
-            "name":"PIC Vesting Voucher",
-            "address":"0x1FcD1391619da26a10952f3bB12687a8AA198725",
-            "symbol":"vvPIC",
-            "tags":[
+            "name": "YIN Vesting Voucher",
+            "address": "0xf6Ee76141E5964F5fF2831C3CB39A90f1541794A",
+            "symbol": "vvYIN",
+            "tags": [
                 "vesting"
             ],
-            "decimals":0,
-            "chainId":56,
-            "logoURI":"https://token-list.solv.finance/token-logo/PIC.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x0308796fA5BdA7a991520a2fbD1eA8C0c81F66d1",
-                    "underlyingToken":{
-                        "name":"PIC",
-                        "address":"0x1ACDFc5889ff360ac95FC9b4db049885AF8f5296",
-                        "decimals":18,
-                        "symbol":"PIC",
-                        "chainId":56,
-                        "logoURI":"https://token-list.solv.finance/token-logo/PIC.png"
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/YIN.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x63eDd2bdf6120479e868029f9fD038a8D964bd0F",
+                    "underlyingToken": {
+                        "name": "YIN Finance",
+                        "address": "0x794Baab6b878467F93EF17e2f2851ce04E3E34C8",
+                        "decimals": 18,
+                        "symbol": "YIN",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/YIN.png"
                     }
                 },
-                "markets":{
-                    "primary":[
-        
+                "markets": {
+                    "primary": [
+                        "0xBA21023Cd7d193f2B980Fac8018f228c1F340B21"
                     ],
-                    "secondary":[
+                    "secondary": [
                         "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
                 }
             }
         },
         {
-            "name":"STRP Bond Voucher",
-            "address":"0x32126Ae067ec31974180f79B6313AE986a375faa",
-            "symbol":"bvSTRP",
-            "tags":[
+            "name": "XY Vesting Voucher",
+            "address": "0xEbCBE62Ff30499451dbd664538AcA75CD6076B3d",
+            "symbol": "vvXY",
+            "tags": [
+                "vesting"
+            ],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/XY.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x5fCd90726880A2C747248E376A6BeA4c7657C655",
+                    "underlyingToken": {
+                        "name": "XY Token",
+                        "address": "0x55555555A687343C6Ce28C8E1F6641dc71659fAd",
+                        "decimals": 18,
+                        "symbol": "XY",
+                        "chainId": 137,
+                        "logoURI": "https://token-list.solv.finance/token-logo/XY.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": [
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "XY Vesting Voucher",
+            "address": "0x4c5033ba078C79Dc1D2775fb481dEA53e145f61A",
+            "symbol": "vvXY",
+            "tags": [
+                "vesting"
+            ],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/XY.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x2F030b1CEa9746Fbba4fA43FcdCdbdde1077cCBc",
+                    "underlyingToken": {
+                        "name": "XY Token",
+                        "address": "0x77777777772cf0455fB38eE0e75f38034dFa50DE",
+                        "decimals": 18,
+                        "symbol": "XY",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/XY.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": [
+                        "0xD91A208995bfBde9D133c39417FBD352e595650b"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "PIC Vesting Voucher",
+            "address": "0x1FcD1391619da26a10952f3bB12687a8AA198725",
+            "symbol": "vvPIC",
+            "tags": [
+                "vesting"
+            ],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/PIC.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x0308796fA5BdA7a991520a2fbD1eA8C0c81F66d1",
+                    "underlyingToken": {
+                        "name": "PIC",
+                        "address": "0x1ACDFc5889ff360ac95FC9b4db049885AF8f5296",
+                        "decimals": 18,
+                        "symbol": "PIC",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/PIC.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": [
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "STRP Bond Voucher",
+            "address": "0x32126Ae067ec31974180f79B6313AE986a375faa",
+            "symbol": "bvSTRP",
+            "tags": [
                 "bond"
             ],
-            "decimals":0,
-            "chainId":42161,
-            "logoURI":"https://token-list.solv.finance/token-logo/STRP.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Bond",
-                    "vestingPool":"0xB037BF91B4B85bBe23d59fd182C20F2bdE7e7eC9",
-                    "underlyingToken":{
-                        "name":"Strips Token",
-                        "address":"0x326c33FD1113c1F29B35B4407F3d6312a8518431",
-                        "decimals":18,
-                        "symbol":"STRP",
-                        "chainId":42161,
-                        "logoURI":"https://token-list.solv.finance/token-logo/STRP.png"
+            "decimals": 0,
+            "chainId": 42161,
+            "logoURI": "https://token-list.solv.finance/token-logo/STRP.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0xB037BF91B4B85bBe23d59fd182C20F2bdE7e7eC9",
+                    "underlyingToken": {
+                        "name": "Strips Token",
+                        "address": "0x326c33FD1113c1F29B35B4407F3d6312a8518431",
+                        "decimals": 18,
+                        "symbol": "STRP",
+                        "chainId": 42161,
+                        "logoURI": "https://token-list.solv.finance/token-logo/STRP.png"
                     }
                 },
-                "markets":{
-                    "primary":[
+                "markets": {
+                    "primary": [
                         "0x67D48Ce0E776147B0d996e1FaCC0FbAA91b1CBC4"
                     ],
-                    "secondary":[
-        
+                    "secondary": []
+                }
+            }
+        },
+        {
+            "name": "WOO Vesting Voucher",
+            "address": "0x2a0464c844Ee22f2d95fa64794210471652d6261",
+            "symbol": "vvWOO",
+            "tags": [
+                "vesting"
+            ],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/WOO.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x0fa50b20821848a49bEfB86317221986Ad4c5b72",
+                    "underlyingToken": {
+                        "name": "Wootrade Network",
+                        "address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+                        "decimals": 18,
+                        "symbol": "WOO",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/WOO.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": [
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
                     ]
                 }
             }
         },
         {
-            "name":"WOO Vesting Voucher",
-            "address":"0x2a0464c844Ee22f2d95fa64794210471652d6261",
-            "symbol":"vvWOO",
-            "tags":[
-                "vesting"
+            "name": "iZi Bond Voucher",
+            "address": "0x08A3947CBd0Abf0433Bc71FB339b3a7b5116747a",
+            "symbol": "bviZi",
+            "tags": [
+                "bond"
             ],
-            "decimals":0,
-            "chainId":56,
-            "logoURI":"https://token-list.solv.finance/token-logo/WOO.png",
-            "extensions":{
-                "voucher":{
-                    "type":"Vesting",
-                    "vestingPool":"0x0fa50b20821848a49bEfB86317221986Ad4c5b72",
-                    "underlyingToken":{
-                        "name":"Wootrade Network",
-                        "address":"0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
-                        "decimals":18,
-                        "symbol":"WOO",
-                        "chainId":56,
-                        "logoURI":"https://token-list.solv.finance/token-logo/WOO.png"
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0x9B4Bc0e5541C70636c25623249278796945E481E",
+                    "underlyingToken": {
+                        "name": "izumi Token",
+                        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+                        "decimals": 18,
+                        "symbol": "iZi",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IZI.png"
                     }
                 },
-                "markets":{
-                    "primary":[
-        
+                "markets": {
+                    "primary": [
+                        "0xd22a4D7A691E56c8A4eBB2844fa0b80C54A5EB1A"
                     ],
-                    "secondary":[
-                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
-                    ]
+                    "secondary": []
                 }
             }
-        }                                                                                                                                     
+        },
+        {
+            "name": "iUSD Bond Voucher",
+            "address": "0x91178A150e8395B46D2d37719d191E21271fcB79",
+            "symbol": "bviUSD",
+            "tags": [
+                "bond"
+            ],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/IUSD.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0xA43d91E24Be5d0E151CC03fD3a57F86DB0978936",
+                    "underlyingToken": {
+                        "name": "iZUMi Bond USD",
+                        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+                        "decimals": 18,
+                        "symbol": "iUSD",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IUSD.png"
+                    }
+                },
+                "markets": {
+                    "primary": [
+                        "0xd22a4D7A691E56c8A4eBB2844fa0b80C54A5EB1A"
+                    ],
+                    "secondary": []
+                }
+            }
+        }
     ]
 }
