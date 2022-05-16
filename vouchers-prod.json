@@ -1783,6 +1783,37 @@
                     "secondary": []
                 }
             }
+        },
+        {
+            "name": "iUSD Bond Voucher",
+            "address": "0x5297E4fD4D103289BFd2Ce1f835E63659d3c5BA9",
+            "symbol": "bviUSD",
+            "tags": [
+                "bond"
+            ],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/IUSD.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0x51A0f39e8c25C339fe62B7d872c38D5d6Caa6622",
+                    "underlyingToken": {
+                        "name": "iZUMi Bond USD",
+                        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+                        "decimals": 18,
+                        "symbol": "iUSD",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IUSD.png"
+                    }
+                },
+                "markets": {
+                    "primary": [
+                        "0x2e2E940c7041A2948934175a81908bAA8adc6AFe"
+                    ],
+                    "secondary": []
+                }
+            }
         }
     ]
 }
