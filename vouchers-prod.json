@@ -1814,6 +1814,37 @@
                     "secondary": []
                 }
             }
+        },
+        {
+            "name": "iZi Bond Voucher",
+            "address": "0x35dff38A3371084dA7c81c508A22d2865d8dbC56",
+            "symbol": "bviZi",
+            "tags": [
+                "bond"
+            ],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0x5226a1A7c0FBd44064e9066eF3ABdf2c2F31ABEE",
+                    "underlyingToken": {
+                        "name": "izumi Token",
+                        "address": "0x9ad37205d608B8b219e6a2573f922094CEc5c200",
+                        "decimals": 18,
+                        "symbol": "iZi",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IZI.png"
+                    }
+                },
+                "markets": {
+                    "primary": [
+                        "0x2e2E940c7041A2948934175a81908bAA8adc6AFe"
+                    ],
+                    "secondary": []
+                }
+            }
         }
     ]
 }
