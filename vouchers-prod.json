@@ -1845,6 +1845,37 @@
                     "secondary": []
                 }
             }
+        },
+        {
+            "name": "XCV Vesting Voucher",
+            "address": "0xF631EBc6aA7b3D84A90CA68b166839c932d41e17",
+            "symbol": "vvXCV",
+            "tags": [
+                "vesting"
+            ],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/XCV.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x57908416Dfe88F13f197E542412E9B740fB78D98",
+                    "underlyingToken": {
+                        "name": "XCarnival",
+                        "address": "0x4be63a9b26EE89b9a3a13fd0aA1D0b2427C135f8",
+                        "decimals": 18,
+                        "symbol": "XCV",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/XCV.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": [
+                        "0x758ae0c48ff013D18b3D63Ca79408e70A977d496"
+                    ]
+                }
+            }
         }
     ]
 }
