@@ -1876,6 +1876,64 @@
                     ]
                 }
             }
-        }
+        },
+        {
+            "name": "SOLV Bond Voucher",
+            "address": "0x2F2281492fE9Df29B309FF43077507de716eB3C6",
+            "symbol": "bvSOLV",
+            "tags": [
+                "bond"
+            ],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": {
+                "type": "Bond",
+                "vestingPool": "0x76231bb9eb1f087134a660139cE8bB04d057E135",
+                "underlyingToken": {
+                    "name": "Solv",
+                    "address": "0x256F2d67e52fE834726D2DDCD8413654F5Eb8b53",
+                    "decimals": 18,
+                    "symbol": "SOLV",
+                    "chainId": 1,
+                    "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                }
+                },
+                "markets": {
+                    "primary": ["0x2e2E940c7041A2948934175a81908bAA8adc6AFe"],
+                    "secondary": []
+                }
+            }
+        },
+        {
+            "name": "PERP Bond Voucher",
+            "address": "0x5Af543536E0e68352764d7B8bdED3C2FF1cdfC51",
+            "symbol": "bvPERP",
+            "tags": [
+               "bond"
+            ],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/PERP.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0x949A93e80eaC00dA4ec005282D5034C16c6CC455",
+                    "underlyingToken": {
+                        "name": "Perpetual",
+                        "address": "0xbC396689893D065F41bc2C6EcbeE5e0085233447",
+                        "decimals": 18,
+                        "symbol": "PERP",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/PERP.png"
+                    }
+                },
+                "markets": {
+                    "primary": ["0x2e2E940c7041A2948934175a81908bAA8adc6AFe"],
+                    "secondary": []
+                }
+            }
+        }    
     ]
 }
