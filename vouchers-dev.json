@@ -738,7 +738,7 @@
         {
             "name": "Fuji Pre-Token Bond Voucher",
             "address": "0x482F40C27D99A8899BE581C3C5f3A2dD8367c807",
-            "symbol": "fjBondVoucher",
+            "symbol": "fjVoucher",
             "tags": ["erc3525"],
             "decimals": 0,
             "chainId": 4,
