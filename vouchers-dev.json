@@ -732,12 +732,12 @@
             "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
             "extensions": {
                 "voucher": { "type": "Dream" },
-                "markets": { "primary": [], "secondary": ["0x047f038a0E8E21Efb1F6E4629D5AF3dAa6A2d926"] }
+                "markets": { "primary": [], "secondary": ["0x3A804A9647868e2Df4440d66898D29b55FA0EADB"] }
             }
         },
         {
             "name": "Fuji Pre-Token Bond Voucher",
-            "address": "0x33D9C777562708eF903b333D10CdaC5a1e272532",
+            "address": "0x482F40C27D99A8899BE581C3C5f3A2dD8367c807",
             "symbol": "fjBondVoucher",
             "tags": ["erc3525"],
             "decimals": 0,
@@ -745,7 +745,7 @@
             "logoURI": "https://token-list.solv.finance/token-logo/FUJI.png",
             "extensions": {
                 "voucher": { "type": "ERC3525" },
-                "markets": { "primary": [], "secondary": [] }
+                "markets": { "primary": [], "secondary": ["0x693afB023934d2333FDA1b88aBc80B420Fd01899"] }
             }
         }
     ]
