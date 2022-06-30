@@ -1934,6 +1934,34 @@
                     "secondary": []
                 }
             }
-        }    
+        },
+        {
+            "name": "ZKS Vesting Voucher",
+            "address": "0x23BDfD23235d158FB25D0b9527c721E59a176F1c",
+            "symbol": "vvZKS",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/ZKS.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x2F7CA45F814d55bC48e5639B04496ba6b03Be486",
+                    "underlyingToken": {
+                        "name": "Zks",
+                        "address": "0xe4815AE53B124e7263F08dcDBBB757d41Ed658c6",
+                        "decimals": 18,
+                        "symbol": "ZKS",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/ZKS.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xD91A208995bfBde9D133c39417FBD352e595650b"]
+                }
+            }
+        }
+      
     ]
 }

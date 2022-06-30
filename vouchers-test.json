@@ -884,17 +884,30 @@
             }
         },
         {
-          "name": "SOLV Dream Voucher",
-          "address": "0x6EB0Ea76f2F58a695700600e73Ecebb612ffd5cC",
-          "symbol": "dvSOLV",
-          "tags": ["dream"],
-          "decimals": 0,
-          "chainId": 4,
-          "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
-          "extensions": {
-              "voucher": { "type": "Dream" },
-              "markets": { "primary": [], "secondary": ["0x9e3b01866ce5B61752Df69488DFf3d958fD0A436"] }
-          }
-      }
+            "name": "SOLV Dream Voucher",
+            "address": "0x6EB0Ea76f2F58a695700600e73Ecebb612ffd5cC",
+            "symbol": "dvSOLV",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 4,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": { "primary": [], "secondary": ["0x477c11C56154DCdA104E2983979fc983D250A8D3"] }
+            }
+        },
+        {
+            "name": "Fuji Pre-Token Voucher",
+            "address": "0xD3883B9a5340d32d5a17EE4d778A1C80ad3f5D97",
+            "symbol": "fjVoucher",
+            "tags": ["erc3525"],
+            "decimals": 0,
+            "chainId": 4,
+            "logoURI": "https://token-list.solv.finance/token-logo/FUJI.png",
+            "extensions": {
+                "voucher": { "type": "ERC3525" },
+                "markets": { "primary": [], "secondary": ["0x27406a0895a522a0E44F1Fcbb8AA55C813cE1b1C"] }
+            }
+        }
     ]
 }
