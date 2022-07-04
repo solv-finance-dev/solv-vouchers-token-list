@@ -678,7 +678,7 @@
                         "name": "Solv",
                         "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
                         "decimals": 18,
-                        "symbol": "SOLV-C",
+                        "symbol": "SOLV",
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                     }
