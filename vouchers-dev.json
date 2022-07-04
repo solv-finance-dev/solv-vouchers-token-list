@@ -693,7 +693,7 @@
         },
         {
             "name": "SOLV Bond Voucher",
-            "address": "0x547a1A3f0a14BEFAb2EF1C0eB3fBBC9236798450",
+            "address": "0xeb8316fF140d4b8d373AF7d87447133991b5c46e",
             "symbol": "bvSOLV",
             "tags": [
                 "bond"
@@ -704,7 +704,7 @@
             "extensions": {
                 "voucher": {
                     "type": "Bond",
-                    "vestingPool": "0xC3fC1805f97E1E00Fbd0d7EFE9080E64B269B91F",
+                    "vestingPool": "0x71620976678F025f55A3aDE0F90E7418015f6daB",
                     "underlyingToken": {
                         "name": "Solv",
                         "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
