@@ -692,36 +692,36 @@
             }
         },
         {
-          "name": "SOLV Bond Voucher",
-          "address": "0x547a1A3f0a14BEFAb2EF1C0eB3fBBC9236798450",
-          "symbol": "bvSOLV",
-          "tags": [
-              "bond"
-          ],
-          "decimals": 0,
-          "chainId": 4,
-          "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
-          "extensions": {
-              "voucher": {
-                  "type": "Bond",
-                  "vestingPool": "0xC3fC1805f97E1E00Fbd0d7EFE9080E64B269B91F",
-                  "underlyingToken": {
-                      "name": "Solv",
-                      "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
-                      "decimals": 18,
-                      "symbol": "SOLV",
-                      "chainId": 4,
-                      "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
-                  }
-              },
-              "markets": {
-                  "primary": [
-                      "0x7555327a4072E3dAa2588B3a61BD1dE5836a0Cb5"
-                  ],
-                  "secondary": ["0x9523a6C719883525d22e5abD2Cdc8eB9036580a4"]
-              }
-          }
-      },
+            "name": "SOLV Bond Voucher",
+            "address": "0x547a1A3f0a14BEFAb2EF1C0eB3fBBC9236798450",
+            "symbol": "bvSOLV",
+            "tags": [
+                "bond"
+            ],
+            "decimals": 0,
+            "chainId": 4,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0xC3fC1805f97E1E00Fbd0d7EFE9080E64B269B91F",
+                    "underlyingToken": {
+                        "name": "Solv",
+                        "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
+                        "decimals": 18,
+                        "symbol": "SOLV",
+                        "chainId": 4,
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                    }
+                },
+                "markets": {
+                    "primary": [
+                        "0x7555327a4072E3dAa2588B3a61BD1dE5836a0Cb5"
+                    ],
+                    "secondary": ["0x9523a6C719883525d22e5abD2Cdc8eB9036580a4"]
+                }
+            }
+        },
         {
             "name": "STRP Bond Voucher",
             "address": "0xd86844E7d92755c0D3235174C0Af1651f64F46a1",
