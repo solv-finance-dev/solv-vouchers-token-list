@@ -663,7 +663,7 @@
         {
             "name": "SOLV Bond Classic Voucher",
             "address": "0x25E35cc47Fc5a80CB59B38514Bc897976729CE0b",
-            "symbol": "bcvSOLV",
+            "symbol": "bvSOLV",
             "tags": [
                 "bond"
             ],
@@ -672,13 +672,13 @@
             "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
             "extensions": {
                 "voucher": {
-                    "type": "BondClassic",
+                    "type": "Bond",
                     "vestingPool": "0x01F96dc7Bc073214D7509C7021064406f9cf5f21",
                     "underlyingToken": {
                         "name": "Solv",
                         "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
                         "decimals": 18,
-                        "symbol": "SOLV-C",
+                        "symbol": "SOLV",
                         "chainId": 4,
                         "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
                     }
