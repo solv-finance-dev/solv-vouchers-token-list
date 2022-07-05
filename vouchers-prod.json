@@ -1961,7 +1961,22 @@
                     "secondary": ["0xD91A208995bfBde9D133c39417FBD352e595650b"]
                 }
             }
+        },
+        {
+            "name": "SOLV Dream Voucher",
+            "address": "0xf8F24538c4DF984b1dFf64267fa9299601135F2e",
+            "symbol": "dvSOLV",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
         }
-      
     ]
 }
