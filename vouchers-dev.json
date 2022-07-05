@@ -663,7 +663,7 @@
         {
             "name": "SOLV Bond Classic Voucher",
             "address": "0x25E35cc47Fc5a80CB59B38514Bc897976729CE0b",
-            "symbol": "bvSOLV",
+            "symbol": "bcvSOLV",
             "tags": [
                 "bond"
             ],
