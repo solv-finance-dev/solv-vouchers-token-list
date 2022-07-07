@@ -768,8 +768,8 @@
         },
         {
             "name": "Fuji Pre-Token Voucher",
-            "address": "0xD3883B9a5340d32d5a17EE4d778A1C80ad3f5D97",
-            "symbol": "fjVoucher",
+            "address": "0x58459E60B7ac9F12a4a8392547c2DB334777227c",
+            "symbol": "fujiVoucher",
             "tags": ["erc3525"],
             "decimals": 0,
             "chainId": 4,
