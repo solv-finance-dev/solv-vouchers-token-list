@@ -755,7 +755,9 @@
                     "primary": [
                         "0x3250aa1EF9874B8c2617686CB876b3D083c340d9"
                     ],
-                    "secondary": []
+                    "secondary": [
+                        "0xb8Fd4Eb36E36D50C4c7FfeCf93674f6B0bE2d21b"
+                    ]
                 }
             }
         },
@@ -786,7 +788,9 @@
                     "primary": [
                         "0x40D480b458B114292cA21e50bd83F4d617Aee419"
                     ],
-                    "secondary": []
+                    "secondary": [
+                        "0xb8Fd4Eb36E36D50C4c7FfeCf93674f6B0bE2d21b"
+                    ]
                 }
             }
         },
@@ -817,7 +821,9 @@
                     "primary": [
                         "0x40D480b458B114292cA21e50bd83F4d617Aee419"
                     ],
-                    "secondary": []
+                    "secondary": [
+                        "0xb8Fd4Eb36E36D50C4c7FfeCf93674f6B0bE2d21b"
+                    ]
                 }
             }
         },
@@ -848,14 +854,16 @@
                     "primary": [
                         "0x277174bF584f713d9fEc63A79395dAf6aBDaAe2a"
                     ],
-                    "secondary": []
+                    "secondary": [
+                        "0xb8Fd4Eb36E36D50C4c7FfeCf93674f6B0bE2d21b"
+                    ]
                 }
             }
         },
         {
-            "name": "SOLV Bond Voucher",
+            "name": "SOLV Bond Classic Voucher",
             "address": "0xE7D4cFd3e6d8833e978D82eF3093944b55b2f6Bc",
-            "symbol": "bvSOLV",
+            "symbol": "bcvSOLV",
             "tags": [
                 "bond"
             ],
@@ -879,7 +887,42 @@
                     "primary": [
                         "0x277174bF584f713d9fEc63A79395dAf6aBDaAe2a"
                     ],
-                    "secondary": []
+                    "secondary": [
+                        "0xb8Fd4Eb36E36D50C4c7FfeCf93674f6B0bE2d21b"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "SOLV Bond Voucher",
+            "address": "0x7F533842e1281A6C77bd60a24bE7CFBc009a05E9",
+            "symbol": "bvSOLV",
+            "tags": [
+                "bond"
+            ],
+            "decimals": 0,
+            "chainId": 4,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0xBEdfe23c4eF96ea860Ebd40Bc9551f065D28c5dD",
+                    "underlyingToken": {
+                        "name": "Solv",
+                        "address": "0x25cc5A7237105BD227C6A849B06e77903fE7D2A8",
+                        "decimals": 18,
+                        "symbol": "SOLV",
+                        "chainId": 4,
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                    }
+                },
+                "markets": {
+                    "primary": [
+                        "0x277174bF584f713d9fEc63A79395dAf6aBDaAe2a"
+                    ],
+                    "secondary": [
+                        "0xb8Fd4Eb36E36D50C4c7FfeCf93674f6B0bE2d21b"
+                    ]
                 }
             }
         },
@@ -898,8 +941,8 @@
         },
         {
             "name": "Fuji Pre-Token Voucher",
-            "address": "0xD3883B9a5340d32d5a17EE4d778A1C80ad3f5D97",
-            "symbol": "fjVoucher",
+            "address": "0x58459E60B7ac9F12a4a8392547c2DB334777227c",
+            "symbol": "fujiVoucher",
             "tags": ["erc3525"],
             "decimals": 0,
             "chainId": 4,
