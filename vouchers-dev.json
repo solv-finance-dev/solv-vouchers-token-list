@@ -692,37 +692,6 @@
             }
         },
         {
-            "name": "SOLV Bond Old Classic Voucher",
-            "address": "0x26e23aDc8314c49ba0131C934c236d735AA01784",
-            "symbol": "bocvSOLV",
-            "tags": [
-                "bond"
-            ],
-            "decimals": 0,
-            "chainId": 4,
-            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
-            "extensions": {
-                "voucher": {
-                    "type": "Bond",
-                    "vestingPool": "0x559D1457e05524Ee4DD181954653FaAFCA5237a8",
-                    "underlyingToken": {
-                        "name": "Solv",
-                        "address": "0x40A08903e4Db8AdE3BB38859173C0803bc525ab4",
-                        "decimals": 18,
-                        "symbol": "SOLV",
-                        "chainId": 4,
-                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
-                    }
-                },
-                "markets": {
-                    "primary": [
-                        "0x7555327a4072E3dAa2588B3a61BD1dE5836a0Cb5"
-                    ],
-                    "secondary": ["0x9523a6C719883525d22e5abD2Cdc8eB9036580a4"]
-                }
-            }
-        },
-        {
             "name": "SOLV Bond Voucher",
             "address": "0xA5Dfb1aD7910693630457484588ac38C3D79fDce",
             "symbol": "bvSOLV",
