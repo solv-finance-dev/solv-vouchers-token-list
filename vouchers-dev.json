@@ -685,7 +685,7 @@
                 },
                 "markets": {
                     "primary": [
-                        "0x7555327a4072E3dAa2588B3a61BD1dE5836a0Cb5"
+                        "0x99fC03A944e6f72966D6EB1A496549Ad1A0edBAC"
                     ],
                     "secondary": ["0x9523a6C719883525d22e5abD2Cdc8eB9036580a4"]
                 }
@@ -716,7 +716,7 @@
                 },
                 "markets": {
                     "primary": [
-                        "0x7555327a4072E3dAa2588B3a61BD1dE5836a0Cb5"
+                        "0x99fC03A944e6f72966D6EB1A496549Ad1A0edBAC"
                     ],
                     "secondary": ["0x9523a6C719883525d22e5abD2Cdc8eB9036580a4"]
                 }
