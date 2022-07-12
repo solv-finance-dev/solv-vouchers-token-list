@@ -828,9 +828,9 @@
             }
         },
         {
-            "name": "iUSD Bond Voucher",
+            "name": "iUSD Bond Classic Voucher",
             "address": "0xaCD0523A19aAA8673525A43D3526a3E064A292d2",
-            "symbol": "bviUSD",
+            "symbol": "bcviUSD",
             "tags": [
                 "bond"
             ],
