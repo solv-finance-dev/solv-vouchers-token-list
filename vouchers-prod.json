@@ -2043,7 +2043,7 @@
             }
         },
         {
-            "name": "DEShare1 Vesting Voucher",
+            "name": "DEShare_USDC-DAI Vesting Voucher",
             "address": "0x601c002BF82Dc6eb74d6DA7E6d0425A47fD6a8e3",
             "symbol": "vvDEShare_USDC-DAI",
             "tags": ["vesting"],
@@ -2058,7 +2058,7 @@
                         "name": "DefiEdge Share",
                         "address": "0x307f8484DAeCFFE8F5B6Dd42e313a3085A6F17f8",
                         "decimals": 18,
-                        "symbol": "DEShare1",
+                        "symbol": "DEShare_USDC-DAI",
                         "chainId": 42161,
                         "logoURI": "https://token-list.solv.finance/token-logo/DESHARE.png"
                     }
@@ -2070,7 +2070,7 @@
             }
         },
         {
-            "name": "DEShare2 Vesting Voucher",
+            "name": "DEShare_USDT-DAI Vesting Voucher",
             "address": "0x90fe404716e3e2D5B92B9e46ca2521a4228c2d71",
             "symbol": "vvDEShare_USDT-DAI",
             "tags": ["vesting"],
@@ -2085,7 +2085,7 @@
                         "name": "DefiEdge Share",
                         "address": "0xE161689E29C59362e59BE45Ee2A617f9bc170A39",
                         "decimals": 18,
-                        "symbol": "DEShare2",
+                        "symbol": "DEShare_USDT-DAI",
                         "chainId": 42161,
                         "logoURI": "https://token-list.solv.finance/token-logo/DESHARE.png"
                     }
