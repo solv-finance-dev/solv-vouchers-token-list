@@ -1723,9 +1723,9 @@
             }
         },
         {
-            "name": "iZi Bond Voucher",
+            "name": "iZi Bond Classic Voucher",
             "address": "0x08A3947CBd0Abf0433Bc71FB339b3a7b5116747a",
-            "symbol": "bviZi",
+            "symbol": "bcviZi",
             "tags": [
                 "bond"
             ],
@@ -1754,9 +1754,9 @@
             }
         },
         {
-            "name": "iUSD Bond Voucher",
+            "name": "iUSD Bond Classic Voucher",
             "address": "0x91178A150e8395B46D2d37719d191E21271fcB79",
-            "symbol": "bviUSD",
+            "symbol": "bcviUSD",
             "tags": [
                 "bond"
             ],
@@ -1785,9 +1785,9 @@
             }
         },
         {
-            "name": "iUSD Bond Voucher",
+            "name": "iUSD Bond Classic Voucher",
             "address": "0x5297E4fD4D103289BFd2Ce1f835E63659d3c5BA9",
-            "symbol": "bviUSD",
+            "symbol": "bcviUSD",
             "tags": [
                 "bond"
             ],
@@ -1816,9 +1816,9 @@
             }
         },
         {
-            "name": "iZi Bond Voucher",
+            "name": "iZi Bond Classic Voucher",
             "address": "0x35dff38A3371084dA7c81c508A22d2865d8dbC56",
-            "symbol": "bviZi",
+            "symbol": "bcviZi",
             "tags": [
                 "bond"
             ],
@@ -1962,6 +1962,8 @@
                 }
             }
         },
+
+        
         {
             "name": "SOLV Dream Voucher",
             "address": "0xf8F24538c4DF984b1dFf64267fa9299601135F2e",
@@ -1977,6 +1979,235 @@
                     "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
                 }
             }
+        },
+        {
+            "name": "Mirror World Dream Voucher",
+            "address": "0x52d28eE8B9FCF1454502914bAF686a4df7892e86",
+            "symbol": "dvMirrorWorld",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/MirrorWorld.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "YeehaGames Dream Voucher",
+            "address": "0x492B1c9E59a137e62245ff6e8E1c4e6e0f5C769B",
+            "symbol": "dvYeehaGames",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/YeehaGames.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "Meta Warriors Dream Voucher",
+            "address": "0xcAab2d1cEc1Bf43321F6F3e837b3ef8194343083",
+            "symbol": "dvMetaWarriors",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/MetaWarriors.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "FitR Dream Voucher",
+            "address": "0x0D6de7B5eEcAbc7bD2dcaeB911d554aA52B40769",
+            "symbol": "dvFitR",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/FITR.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "DEShare1 Vesting Voucher",
+            "address": "0x601c002BF82Dc6eb74d6DA7E6d0425A47fD6a8e3",
+            "symbol": "vvDEShare_USDC-DAI",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 42161,
+            "logoURI": "https://token-list.solv.finance/token-logo/DESHARE.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x03a8a404424e12aE80aFB85F80bA693EA1C7BC4F",
+                    "underlyingToken": {
+                        "name": "DefiEdge Share",
+                        "address": "0x307f8484DAeCFFE8F5B6Dd42e313a3085A6F17f8",
+                        "decimals": 18,
+                        "symbol": "DEShare1",
+                        "chainId": 42161,
+                        "logoURI": "https://token-list.solv.finance/token-logo/DESHARE.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xf30e8dF9C5EC87edfCfC9E15A349dE8061Dfe8dB"]
+                }
+            }
+        },
+        {
+            "name": "DEShare2 Vesting Voucher",
+            "address": "0x90fe404716e3e2D5B92B9e46ca2521a4228c2d71",
+            "symbol": "vvDEShare_USDT-DAI",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 42161,
+            "logoURI": "https://token-list.solv.finance/token-logo/DESHARE.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xB96078c516e3cDa9b815622DF673460034e33100",
+                    "underlyingToken": {
+                        "name": "DefiEdge Share",
+                        "address": "0xE161689E29C59362e59BE45Ee2A617f9bc170A39",
+                        "decimals": 18,
+                        "symbol": "DEShare2",
+                        "chainId": 42161,
+                        "logoURI": "https://token-list.solv.finance/token-logo/DESHARE.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xf30e8dF9C5EC87edfCfC9E15A349dE8061Dfe8dB"]
+                }
+            }
+        },
+
+
+        {
+            "name": "iZi Bond Voucher",
+            "address": "0x2F030b1CEa9746Fbba4fA43FcdCdbdde1077cCBc",
+            "symbol": "bviZi-CAKE",
+            "tags": ["bond"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0x68B812419877E66e22a00349fA16FF93e367fE0A",
+                    "underlyingToken": {
+                        "name": "izumi Token",
+                        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+                        "decimals": 18,
+                        "symbol": "iZi",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IZI.png"
+                    }
+                },
+                "markets": {
+                    "primary": ["0xd22a4D7A691E56c8A4eBB2844fa0b80C54A5EB1A"],
+                    "secondary": []
+                }
+            }
+        },
+        {
+            "name": "iZi Bond Voucher",
+            "address": "0x46f67373040863Bf4098dbd914d8155f50C1ee78",
+            "symbol": "bviZi-USDT",
+            "tags": ["bond"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0x5292945c91BAD1C1A8b3177d3Fd72DdF77f32d8e",
+                    "underlyingToken": {
+                        "name": "izumi Token",
+                        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+                        "decimals": 18,
+                        "symbol": "iZi",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IZI.png"
+                    }
+                },
+                "markets": {
+                    "primary": ["0xd22a4D7A691E56c8A4eBB2844fa0b80C54A5EB1A"],
+                    "secondary": []
+                }
+            }
+        },
+        {
+            "name": "iZi Bond Voucher",
+            "address": "0xf4d5F535695b70459EBF73796a7447950308bb71",
+            "symbol": "bviZi-BIT",
+            "tags": ["bond"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/IZI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0x4910441fAA90e74c7e5F8BD88aB27B4893814D62",
+                    "underlyingToken": {
+                        "name": "izumi Token",
+                        "address": "0x9ad37205d608B8b219e6a2573f922094CEc5c200",
+                        "decimals": 18,
+                        "symbol": "iZi",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IZI.png"
+                    }
+                },
+                "markets": {
+                    "primary": ["0x2e2E940c7041A2948934175a81908bAA8adc6AFe"],
+                    "secondary": []
+                }
+            }
+        },
+        {
+            "name": "iUSD Bond Voucher",
+            "address": "0xf4F7139b1FcC5Cac2f573Cc4B684Cc75367A9cfD",
+            "symbol": "bviUSD-WETH",
+            "tags": ["bond"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/IUSD.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Bond",
+                    "vestingPool": "0xf498875333A794Fe586430793db1B84070B040A0",
+                    "underlyingToken": {
+                        "name": "iZUMi Bond USD",
+                        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+                        "decimals": 18,
+                        "symbol": "iUSD",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/IUSD.png"
+                    }
+                },
+                "markets": {
+                    "primary": ["0x2e2E940c7041A2948934175a81908bAA8adc6AFe"],
+                    "secondary": []
+                }
+            }
         }
+      
     ]
 }
