@@ -894,41 +894,8 @@
             }
         },
         {
-          "name": "TestSolv Bond Classic Voucher",
-          "address": "0x7F533842e1281A6C77bd60a24bE7CFBc009a05E9",
-          "symbol": "bcvTESTSOLV",
-          "tags": [
-              "bond"
-          ],
-          "decimals": 0,
-          "chainId": 4,
-          "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
-          "extensions": {
-              "voucher": {
-                  "type": "Bond",
-                  "vestingPool": "0x7381568235a6B9b8f45780Ed4ba4F9923af59313",
-                  "underlyingToken": {
-                      "name": "Solv",
-                      "address": "0x25cc5A7237105BD227C6A849B06e77903fE7D2A8",
-                      "decimals": 18,
-                      "symbol": "SOLV",
-                      "chainId": 4,
-                      "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
-                  }
-              },
-              "markets": {
-                  "primary": [
-                      "0x277174bF584f713d9fEc63A79395dAf6aBDaAe2a"
-                  ],
-                  "secondary": [
-                      "0xb8Fd4Eb36E36D50C4c7FfeCf93674f6B0bE2d21b"
-                  ]
-              }
-          }
-      },
-        {
             "name": "SOLV Bond Voucher",
-            "address": "0x46e4183e465076e9460C63eDca9275Ab494b299B",
+            "address": "0x68Eb4436B2275a405d27BDD48E7Ce46A8da8C883",
             "symbol": "bvSOLV",
             "tags": [
                 "bond"
@@ -939,7 +906,7 @@
             "extensions": {
                 "voucher": {
                     "type": "Bond",
-                    "vestingPool": "0xFd6adb96da5051E1eBdb5A2a476e0086aF527Ae8",
+                    "vestingPool": "0xe69b68F20306633A661619c08EA2e8032a7312eb",
                     "underlyingToken": {
                         "name": "Solv",
                         "address": "0x25cc5A7237105BD227C6A849B06e77903fE7D2A8",
@@ -951,7 +918,7 @@
                 },
                 "markets": {
                     "primary": [
-                        "0x277174bF584f713d9fEc63A79395dAf6aBDaAe2a"
+                        "0xb8CFB92AB2915D5D746ca6f1c49c0814bdf3349C"
                     ],
                     "secondary": [
                         "0xb8Fd4Eb36E36D50C4c7FfeCf93674f6B0bE2d21b"
@@ -984,6 +951,19 @@
                 "voucher": { "type": "ERC3525" },
                 "markets": { "primary": [], "secondary": ["0x27406a0895a522a0E44F1Fcbb8AA55C813cE1b1C"] }
             }
-        }
+        },
+        {
+          "name": "Fuji Pre-Token Voucher",
+          "address": "0x66211042Eba539114e3d592fc15787Df8b4E5Fa0",
+          "symbol": "fujiVoucher",
+          "tags": ["erc3525"],
+          "decimals": 0,
+          "chainId": 4002,
+          "logoURI": "https://token-list.solv.finance/token-logo/FUJI.png",
+          "extensions": {
+              "voucher": { "type": "ERC3525" },
+              "markets": { "primary": [], "secondary": ["0x020D0B9FC3247Fcfa22Df22Eb45011703375Df9c"] }
+          }
+      }
     ]
 }
