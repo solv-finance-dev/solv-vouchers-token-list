@@ -964,6 +964,30 @@
                 "voucher": { "type": "ERC3525" },
                 "markets": { "primary": [], "secondary": ["0x020D0B9FC3247Fcfa22Df22Eb45011703375Df9c"] }
             }
+        },
+        {
+            "name": "SOLV Vesting Voucher",
+            "address": "0xE17A7958a81B972d74Bdf16bcE35ABF5625d4723",
+            "symbol": "icSOLV",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 4002,
+            "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xeF78605f423F1F44C7e2Ac31745EF5523e7Df6ce",
+                    "underlyingToken": {
+                        "name": "Solv",
+                        "address": "0xad060cf4f583f3430039A4977405cf2D9518A23B",
+                        "decimals": 18,
+                        "symbol": "SOLV",
+                        "chainId": 4002,
+                        "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png"
+                    }
+                },
+                "markets": { "primary": [], "secondary": ["0xEb151eb5DC2CE04b7E4eFe4f903127ab9c58b84B"] }
+            }
         }
     ]
 }
