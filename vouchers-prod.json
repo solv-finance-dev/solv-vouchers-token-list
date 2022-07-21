@@ -2203,7 +2203,38 @@
                     "secondary": []
                 }
             }
+        },
+        {
+            "name": "Boom Dream Voucher",
+            "address": "0x8C1c966a6aB05C00BB604F4453Ab33e43b6d49aB",
+            "symbol": "dvBoom",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/BOOM.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "Attrace Dream Voucher",
+            "address": "0x6c59F5417bECc6e4a36f194a5B16bD6D73418f58",
+            "symbol": "dvAttrace",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/ATTRACE.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
         }
-      
     ]
 }
