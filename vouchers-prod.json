@@ -2362,6 +2362,28 @@
                     ]
                 }
             }
+        },
+        {
+            "name": "Fuji Pre-Token Voucher",
+            "address": "0xF47C09a06Bf0EDFefDa628CEbCd50B42a1BaE1f2",
+            "symbol": "fujiVoucher",
+            "tags": [
+                "erc3525"
+            ],
+            "decimals": 0,
+            "chainId": 250,
+            "logoURI": "https://token-list.solv.finance/token-logo/FUJI.png",
+            "extensions": {
+                "voucher": {
+                    "type": "ERC3525"
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": [
+                        "0x67D48Ce0E776147B0d996e1FaCC0FbAA91b1CBC4"
+                    ]
+                }
+            }
         }
     ]
 }
