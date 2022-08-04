@@ -2342,7 +2342,7 @@
             }
         },
         {
-            "name": " Azuro Dream Voucher",
+            "name": "Azuro Dream Voucher",
             "address": "0x5340dcBaB4288487eEb199b4eD2bc76027C0E430",
             "symbol": "dvAzuro",
             "tags": [
@@ -2360,6 +2360,22 @@
                     "secondary": [
                         "0xd21655f83e94FD8f286419b6e78c38B6ea33c067"
                     ]
+                }
+            }
+        },
+        {
+            "name": "DESYN Dream Voucher",
+            "address": "0xa57a7143b8Bd542b3E0E5071cB916A962867e86B",
+            "symbol": "dvDesyn",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/DESYN.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
                 }
             }
         },
