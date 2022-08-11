@@ -2400,6 +2400,38 @@
                     ]
                 }
             }
+        },
+        {
+            "name": "Aradena Dream Voucher",
+            "address": "0xA3414D9DC51fa85B28B451A0c99d81eeAD9Eb978",
+            "symbol": "dvAradena",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/ARADENA.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "ZONE NINE Dream Voucher",
+            "address": "0x0c1b4a9967751Bbd0371e00185d2196cD28c0291",
+            "symbol": "dvZONENINE",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/ZONENINE.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
         }
     ]
 }
