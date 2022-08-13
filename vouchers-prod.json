@@ -1878,9 +1878,9 @@
             }
         },
         {
-            "name": "SOLV Bond Voucher",
+            "name": "SOLV Bond Classic Voucher",
             "address": "0x2F2281492fE9Df29B309FF43077507de716eB3C6",
-            "symbol": "bvSOLV",
+            "symbol": "bcvSOLV",
             "tags": [
                 "bond"
             ],
