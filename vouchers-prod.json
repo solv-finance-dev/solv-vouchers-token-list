@@ -2432,6 +2432,38 @@
                     "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
                 }
             }
+        },
+        {
+            "name": "MetaMouse Dream Voucher",
+            "address": "0x75964599409F9AdbFF95C7Bd55757eCe4AE200e3",
+            "symbol": "dvMetaMouse",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/METAMOUSE.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "MetaBlox Dream Voucher",
+            "address": "0xfd0f11414B33f509bd42363732093F3c13F94f93",
+            "symbol": "dvMetaBlox",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/METABLOX.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
         }
     ]
 }
