@@ -2480,6 +2480,38 @@
                     "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
                 }
             }
+        },
+        {
+            "name": "Star Dream Voucher",
+            "address": "0x4d428E46f80BcE9c155D3B8E6fD20F354D8aFCCf",
+            "symbol": "dvStar",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/STAR.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "AnimeFi Dream Voucher",
+            "address": "0xc7Ca9043adCd6F39abAAEc9B1c392c0F54e3FB1A",
+            "symbol": "dvAnimeFi",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/AnimeFi.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
         }
     ]
 }
