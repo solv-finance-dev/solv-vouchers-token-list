@@ -729,9 +729,9 @@
             }
         },
         {
-            "name": "STRP Bond Voucher",
+            "name": "STRP Bond Classic Voucher",
             "address": "0xd86844E7d92755c0D3235174C0Af1651f64F46a1",
-            "symbol": "bvSTRP",
+            "symbol": "bcvSTRP",
             "tags": [
                 "bond"
             ],
