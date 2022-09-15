@@ -2528,6 +2528,22 @@
                     "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
                 }
             }
+        },
+        {
+            "name": "3air Dream Voucher",
+            "address": "0x7DDa8504aADA93C9785A2a13C232291cC7938DbB",
+            "symbol": "dv3air",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/3AIR.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
         }
     ]
 }
