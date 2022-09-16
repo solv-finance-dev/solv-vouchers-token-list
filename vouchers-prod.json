@@ -2544,6 +2544,33 @@
                     "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
                 }
             }
+        },
+        {
+            "name": "3AIR Vesting Voucher",
+            "address": "0x70d98d1C1A137410c796B04bBb1ba0FF65cB8693",
+            "symbol": "vv3AIR",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/3AIR.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x5226a1A7c0FBd44064e9066eF3ABdf2c2F31ABEE",
+                    "underlyingToken": {
+                        "name": "3air",
+                        "address": "0x596834746B5b78F31A089EE7853fa595682824B7",
+                        "decimals": 18,
+                        "symbol": "3AIR",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/3AIR.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0x758ae0c48ff013D18b3D63Ca79408e70A977d496"]
+                }
+            }
         }
     ]
 }
