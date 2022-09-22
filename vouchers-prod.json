@@ -2571,6 +2571,65 @@
                     "secondary": ["0x758ae0c48ff013D18b3D63Ca79408e70A977d496"]
                 }
             }
+        },
+        {
+            "name": "Seer Dream Voucher",
+            "address": "0xC2B5c7Bfc48AF1e5262B45776fe4Bf64FD56aF6B",
+            "symbol": "dvSeer",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/SEER.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "Mero Dream Voucher",
+            "address": "0xb925BecA3640c90C558a35267e09345BBd8627df",
+            "symbol": "dvMero",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 137,
+            "logoURI": "https://token-list.solv.finance/token-logo/MERO.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
+                }
+            }
+        },
+        {
+            "name": "LWT Vesting Voucher",
+            "address": "0x1a8bE4389024B26c2Af641086c80E756D60C1eFf",
+            "symbol": "vvLWT",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/LWT.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0xA9b80f96Ae05c388Dda1732b445a4A701e8B5f18",
+                    "underlyingToken": {
+                        "name": "LotusWalletCommunity",
+                        "address": "0x93d87a1dcb504aD5BE54B9194496713Eb99b9953",
+                        "decimals": 18,
+                        "symbol": "LWT",
+                        "chainId": 56,
+                        "logoURI": "https://token-list.solv.finance/token-logo/LWT.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0x758ae0c48ff013D18b3D63Ca79408e70A977d496"]
+                }
+            }
         }
     ]
 }
