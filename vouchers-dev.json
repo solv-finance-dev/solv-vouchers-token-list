@@ -781,7 +781,7 @@
         },
         {
           "name": "SOLV Bond Voucher",
-          "address": "0x293f9A7BE7e3c14d01fd89e6936245C2442Ad697",
+          "address": "0x3E43CCBA864FB6A3b5D3db75B5Cc8Cd841b0FA28",
           "symbol": "cbSOLV",
           "tags": [
               "creditBond"
@@ -792,11 +792,11 @@
           "extensions": {
               "voucher": {
                   "type": "CreditBond",
-                  "vestingPool": "0x95bFE36261883846827f70b6Be197BF6a00BC458"
+                  "vestingPool": "0x3b7E5bc52eC6AF709722Cb250E12EE6c289Ce026"
               },
               "markets": {
                   "primary": [
-                      "0x0fb71e20681535bc4301b2a132694766D4BeF81a"
+                      "0xE56F3C4f2F8A6d268B43c55CA09c61368A1494BC"
                   ],
                   "secondary": [""]
               }
