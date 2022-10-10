@@ -778,6 +778,29 @@
                 "voucher": { "type": "ERC3525" },
                 "markets": { "primary": [], "secondary": ["0x693afB023934d2333FDA1b88aBc80B420Fd01899"] }
             }
-        }
+        },
+        {
+          "name": "SOLV Credit Bond Voucher",
+          "address": "0x293f9A7BE7e3c14d01fd89e6936245C2442Ad697",
+          "symbol": "cbSOLV",
+          "tags": [
+              "creditBond"
+          ],
+          "decimals": 0,
+          "chainId": 97,
+          "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+          "extensions": {
+              "voucher": {
+                  "type": "CreditBond",
+                  "vestingPool": "0x95bFE36261883846827f70b6Be197BF6a00BC458"
+              },
+              "markets": {
+                  "primary": [
+                      "0x0fb71e20681535bc4301b2a132694766D4BeF81a"
+                  ],
+                  "secondary": [""]
+              }
+          }
+      }
     ]
 }
