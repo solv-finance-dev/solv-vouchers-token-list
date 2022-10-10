@@ -780,7 +780,7 @@
             }
         },
         {
-          "name": "SOLV Credit Bond Voucher",
+          "name": "SOLV Bond Voucher",
           "address": "0x293f9A7BE7e3c14d01fd89e6936245C2442Ad697",
           "symbol": "cbSOLV",
           "tags": [
