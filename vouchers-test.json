@@ -762,9 +762,9 @@
             }
         },
         {
-            "name": "iZi Bond Voucher",
+            "name": "iZi Bond Classic Voucher",
             "address": "0xc7Fe0bBDa5c657190D841f31AB66b93142bDC0B6",
-            "symbol": "bviZi",
+            "symbol": "bcviZi",
             "tags": [
                 "bond"
             ],
@@ -795,9 +795,9 @@
             }
         },
         {
-            "name": "iUSD Bond Voucher",
+            "name": "iUSD Bond Classic Voucher",
             "address": "0x3F7F850e7f1095673e3aFEE0bf1d15105e589bFd",
-            "symbol": "bviUSD",
+            "symbol": "bcviUSD",
             "tags": [
                 "bond"
             ],
