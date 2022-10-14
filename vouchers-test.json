@@ -988,6 +988,52 @@
                 },
                 "markets": { "primary": [], "secondary": ["0xEb151eb5DC2CE04b7E4eFe4f903127ab9c58b84B"] }
             }
-        }
+        },
+        {
+          "name": "SOLV Bond Voucher",
+          "address": "0xAEc5Ce78052B7a6175229889961D0E123C3ff4Cb",
+          "symbol": "cbSOLV",
+          "tags": [
+              "creditBond"
+          ],
+          "decimals": 0,
+          "chainId": 97,
+          "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+          "extensions": {
+              "voucher": {
+                  "type": "CreditBond",
+                  "vestingPool": "0xD0967d68206d9eFD7A4C1578635B3F0F1bBAB290"
+              },
+              "markets": {
+                  "primary": [
+                      "0x6BCa93c7B761Ff1401d2041134B663654aB52b1C"
+                  ],
+                  "secondary": [""]
+              }
+          }
+      },
+      {
+          "name": "Animoca-USDT-Bond",
+          "address": "0xA795AEA7dBA35BF2152B8f530ad4E39FdBc05bE5",
+          "symbol": "cbAnimoca",
+          "tags": [
+              "creditBond"
+          ],
+          "decimals": 0,
+          "chainId": 97,
+          "logoURI": "https://token-list.solv.finance/token-logo/Animoca.png",
+          "extensions": {
+              "voucher": {
+                  "type": "CreditBond",
+                  "vestingPool": "0x5f9FDFF7FdD02BEe718854338C61dD29BAf0b201"
+              },
+              "markets": {
+                  "primary": [
+                      "0x6BCa93c7B761Ff1401d2041134B663654aB52b1C"
+                  ],
+                  "secondary": [""]
+              }
+          }
+      }
     ]
 }
