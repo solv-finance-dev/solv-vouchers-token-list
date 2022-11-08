@@ -2676,6 +2676,25 @@
                     "secondary": []
                 }
             }
+        },
+        {
+            "name": "Astrolabs-Loan-01",
+            "address": "0xA9B4E225e7df294bD9D092bBb0fC98cC1bDbdCC6",
+            "symbol": "Astrolabs-Loan-01",
+            "tags": ["creditbond"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/ASTRO.png",
+            "extensions": {
+                "voucher": {
+                    "type": "CreditBond",
+                    "vestingPool": "0x98f7F06BA5f2e18149F3082882A076152b21d9e4"
+                },
+                "markets": {
+                    "primary": ["0x26E417DC9B4996E9403A4d5E6bb1b034a572de24"],
+                    "secondary": []
+                }
+            }
         }
     ]
 }
