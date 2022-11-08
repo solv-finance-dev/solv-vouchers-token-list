@@ -2659,27 +2659,23 @@
             }
         },
         {
-          "name": "Animoca-USDC-Bond",
-          "address": "0x03D3DEc9a6CCC0241f76b4078Eff8AaEde899cd3",
-          "symbol": "cbAnimoca",
-          "tags": [
-              "creditBond"
-          ],
-          "decimals": 0,
-          "chainId": 1,
-          "logoURI": "https://token-list.solv.finance/token-logo/Animoca.png",
-          "extensions": {
-              "voucher": {
-                  "type": "CreditBond",
-                  "vestingPool": "0x8d84c95CE13478eDc05b1ce31A63Af1d115B9F0A"
-              },
-              "markets": {
-                  "primary": [
-                      "0x26E417DC9B4996E9403A4d5E6bb1b034a572de24"
-                  ],
-                  "secondary": [""]
-              }
-          }
-      }
+            "name": "22Animoca",
+            "address": "0xeD6ab1EB0eb958cB0C0613609906b713F732A3D6",
+            "symbol": "22Animoca",
+            "tags": ["creditbond"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/Animoca.png",
+            "extensions": {
+                "voucher": {
+                    "type": "CreditBond",
+                    "vestingPool": "0x8d84c95CE13478eDc05b1ce31A63Af1d115B9F0A"
+                },
+                "markets": {
+                    "primary": ["0x26E417DC9B4996E9403A4d5E6bb1b034a572de24"],
+                    "secondary": []
+                }
+            }
+        }
     ]
 }
