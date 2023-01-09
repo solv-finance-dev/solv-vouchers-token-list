@@ -2695,6 +2695,22 @@
                     "secondary": []
                 }
             }
+        },
+        {
+            "name": "Mirror Planet Dream Voucher",
+            "address": "0x97DaB52929c15eE849D1F2f2220a88DC52C1eC95",
+            "symbol": "dvMirrorPlanet",
+            "tags": ["dream"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/MirrorPlanet.png",
+            "extensions": {
+                "voucher": { "type": "Dream" },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xD8BA2F38642B68dD6dA7C7f231d26631297f47A6"]
+                }
+            }
         }
     ]
 }
