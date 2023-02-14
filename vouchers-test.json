@@ -1034,6 +1034,22 @@
                   "secondary": [""]
               }
           }
+      },
+      {
+          "name": "Solv Seahorse Fund",
+          "address": "0x0e637A5DC6505c88A2981C1DFE6219062C8Bf515",
+          "symbol": "SSF",
+          "tags": ["dream"],
+          "decimals": 0,
+          "chainId": 80001,
+          "logoURI": "https://token-list.solv.finance/token-logo/SOLV.png",
+          "extensions": {
+              "voucher": { "type": "Dream" },
+              "markets": {
+                  "primary": [],
+                  "secondary": ["0x15EE805A0D83AF1182D98b47Af64B45B273Fc22e"]
+              }
+          }
       }
     ]
 }
