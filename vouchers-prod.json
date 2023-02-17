@@ -2751,7 +2751,7 @@
             "tags": ["creditbond"],
             "decimals": 0,
             "chainId": 56,
-            "logoURI": "https://token-list.solv.finance/token-logo/BTCB.png",
+            "logoURI": "https://token-list.solv.finance/token-logo/CCL.png",
             "extensions": {
                 "voucher": {
                     "type": "CreditBond",
