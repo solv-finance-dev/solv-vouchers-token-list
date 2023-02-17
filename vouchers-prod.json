@@ -2743,7 +2743,26 @@
                     "secondary": ["0xd21655f83e94FD8f286419b6e78c38B6ea33c067"]
                 }
             }
-        }
-                
+        },
+        {
+            "name": "CCL2023",
+            "address": "0x6CeF32D6586CFEcaDd5Ab638CE5AF33e0291BD22",
+            "symbol": "CCL2023",
+            "tags": ["creditbond"],
+            "decimals": 0,
+            "chainId": 56,
+            "logoURI": "https://token-list.solv.finance/token-logo/BTCB.png",
+            "extensions": {
+                "voucher": {
+                    "type": "CreditBond",
+                    "vestingPool": "0x2F7CA45F814d55bC48e5639B04496ba6b03Be486"
+                },
+                "markets": {
+                    "primary": ["0x86d6Fa3485f9a69549Ccd767d4Ca084d4eEFF89a"],
+                    "secondary": []
+                }
+            }
+        }        
+               
     ]
 }
