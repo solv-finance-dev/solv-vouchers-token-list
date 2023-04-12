@@ -1971,7 +1971,7 @@
             }
         },
         {
-            "name": "SOLV Dream Voucher",
+            "name": "Subscription Coupon",
             "address": "0xf8F24538c4DF984b1dFf64267fa9299601135F2e",
             "symbol": "dvSOLV",
             "tags": [
@@ -2729,7 +2729,7 @@
             }
         },
         {
-            "name": "Subscription Coupon",
+            "name": "Solv Seahorse Fund",
             "address": "0x158A94369cDA1c446A71f6FcFE2FC3668E03dE83",
             "symbol": "SSF",
             "tags": ["dream"],
