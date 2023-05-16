@@ -2762,7 +2762,33 @@
                     "secondary": []
                 }
             }
-        }        
-               
+        },
+        {
+            "name": "RBX Vesting Voucher",
+            "address": "0x4d6B4929d534387958D70dCbc26B31d32dd35B90",
+            "symbol": "vvRBX",
+            "tags": ["vesting"],
+            "decimals": 0,
+            "chainId": 1,
+            "logoURI": "https://token-list.solv.finance/token-logo/RBX.png",
+            "extensions": {
+                "voucher": {
+                    "type": "Vesting",
+                    "vestingPool": "0x8BFd2D09Ce977fd716De8c6648728d24b0D3A723",
+                    "underlyingToken": {
+                        "name": "RabbitX",
+                        "address": "0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e",
+                        "decimals": 18,
+                        "symbol": "RBX",
+                        "chainId": 1,
+                        "logoURI": "https://token-list.solv.finance/token-logo/RBX.png"
+                    }
+                },
+                "markets": {
+                    "primary": [],
+                    "secondary": ["0xD91A208995bfBde9D133c39417FBD352e595650b"]
+                }
+            }
+        }
     ]
 }
