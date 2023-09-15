@@ -2487,6 +2487,30 @@
           "secondary": ["0x758ae0c48ff013D18b3D63Ca79408e70A977d496"]
         }
       }
+    },
+    {
+      "name": "fsGLP Vesting Voucher",
+      "address": "0xd8e8ad3ee2B5B78a994e472DDdEdDEaCE0a66079",
+      "symbol": "vvGLP",
+      "tags": ["vesting"],
+      "decimals": 0,
+      "chainId": 42161,
+      "logoURI": "https://token-list.solv.finance/token-logo/FSGLP.png",
+      "extensions": {
+        "voucher": {
+          "type": "Vesting",
+          "vestingPool": "0x5C5E2858BF96cFF4ecD2672317F0f2687F50feF9",
+          "underlyingToken": {
+            "name": "Fee + Staked GLP",
+            "address": "0x1aDDD80E6039594eE970E5872D247bf0414C8903",
+            "decimals": 18,
+            "symbol": "fsGLP",
+            "chainId": 42161,
+            "logoURI": "https://token-list.solv.finance/token-logo/FSGLP.png"
+          }
+        },
+        "markets": { "primary": [], "secondary": [] }
+      }
     }
   ]
 }
