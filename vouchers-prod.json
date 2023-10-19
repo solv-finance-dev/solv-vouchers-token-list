@@ -2511,6 +2511,30 @@
         },
         "markets": { "primary": [], "secondary": [] }
       }
+    },
+    {
+      "name": "GM Vesting Voucher",
+      "address": "0x784B75CEc10CDc703Fa3229e82a63512049Bed7B",
+      "symbol": "vvBTCGM",
+      "tags": ["vesting"],
+      "decimals": 0,
+      "chainId": 42161,
+      "logoURI": "https://token-list.solv.finance/token-logo/GM.png",
+      "extensions": {
+        "voucher": {
+          "type": "Vesting",
+          "vestingPool": "0xb4CF4Bc604740D6bD946B3E8BF89f01399296ec2",
+          "underlyingToken": {
+            "name": "GMX Market",
+            "address": "0x47c031236e19d024b42f8AE6780E44A573170703",
+            "decimals": 18,
+            "symbol": "GM",
+            "chainId": 42161,
+            "logoURI": "https://token-list.solv.finance/token-logo/GM.png"
+          }
+        },
+        "markets": { "primary": [], "secondary": [] }
+      }
     }
   ]
 }
